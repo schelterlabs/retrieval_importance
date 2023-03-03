@@ -56,7 +56,7 @@ jobs:
           name: wheels
           path: dist
       - name: Install Python test dependencies
-          run: pip install -r requirements-dev.txt --upgrade --upgrade-strategy eager
+        run: pip install -r requirements-dev.txt --upgrade --upgrade-strategy eager
       - name: Run Python tests
         run: python -m pytest
 
