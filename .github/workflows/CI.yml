@@ -29,6 +29,12 @@ jobs:
         with:
           name: wheels
           path: dist
+      - name: Install Python test dependencies
+          run: |
+            pip install --upgrade --upgrade-strategy eager requirements-dev.txt
+      - name: Run Python tests
+          run: |
+            python -m pytest
 
   windows:
     runs-on: windows-latest
@@ -51,6 +57,12 @@ jobs:
         with:
           name: wheels
           path: dist
+      - name: Install Python test dependencies
+          run: |
+            pip install --upgrade --upgrade-strategy eager requirements-dev.txt
+            - name: Run Python tests
+                run: |
+                  python -m pytest
 
   macos:
     runs-on: macos-latest
@@ -72,6 +84,12 @@ jobs:
         with:
           name: wheels
           path: dist
+      - name: Install Python test dependencies
+          run: |
+            pip install --upgrade --upgrade-strategy eager requirements-dev.txt
+            - name: Run Python tests
+                run: |
+                  python -m pytest
 
   release:
     name: Release
