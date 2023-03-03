@@ -16,6 +16,5 @@ def test_demo_nbs():
     Tests whether the demo notebook works
     """
     # matplotlib.use("template")  # Can be used if we have matplotlib plots in the demo notebooks at some point
-    # WIKIFACT_GROUPS_NB, WIKIFACT_GROUPS_NB do not work for testing currently because of the %%time cell magic
-    for notebook in [TOY_EXAMPLE_NB, TOY_EXAMPLE_GROUPS_NB]:
+    for notebook in [TOY_EXAMPLE_NB, TOY_EXAMPLE_GROUPS_NB, WIKIFACT_GROUPS_NB, WIKIFACT_GROUPS_NB]:
         Notebook().load(notebook)
