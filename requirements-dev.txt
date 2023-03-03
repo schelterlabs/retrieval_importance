@@ -1,4 +1,4 @@
-pytest==6.1.2
+pytest==6.2.5
 pytest-runner==5.2
 pytest-pycharm==0.7.0
 pytest-mock==3.3.1
