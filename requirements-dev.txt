@@ -3,4 +3,4 @@ pytest-runner==5.2
 pytest-pycharm==0.7.0
 pytest-mock==3.3.1
 tldextract==3.4.0
-importnb==2013.1.7
+importnb==0.7.0
