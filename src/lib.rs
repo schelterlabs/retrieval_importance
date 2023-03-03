@@ -14,7 +14,7 @@ fn learn_importance(
     k: usize,
     learning_rate: f64,
     num_steps: usize,
-    n_jobs: usize, // TODO allow for -1
+    n_jobs: Option<isize>,
     grouping: Option<&PyList>,
 ) -> PyResult<Vec<f64>> {
 
@@ -52,6 +52,10 @@ fn learn_importance(
 
     let grouping_reference = decoded_grouping.as_ref();
 
+    let decoded_n_jobs: usize = n_jobs
+        .map(|n| if n < 1 { num_cpus::get() } else { n as usize })
+        .unwrap_or(1);
+
     let v = mle::mle_importance(
         retrievals,
         corpus_size + 1,
@@ -59,7 +63,7 @@ fn learn_importance(
         k,
         learning_rate,
         num_steps,
-        n_jobs
+        decoded_n_jobs
     );
 
     Ok(v)
