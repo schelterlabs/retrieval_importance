@@ -14,5 +14,6 @@
  * Optional steps:
     * Run the tests with `cargo test --release`
     * Run the benchmarks with `cargo bench`
+    * Install dev dependencies with `pip install -r requirements-dev.txt`
+    * Run the Python tests `python -m pytest`
     * Start jupyter with `jupyter notebook` and run the example notebooks
- 
