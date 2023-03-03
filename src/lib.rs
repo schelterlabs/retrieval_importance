@@ -3,6 +3,9 @@ use pyo3::types::PyList;
 use pyo3::types::PyDict;
 
 use itertools::Itertools;
+
+pub mod mle;
+
 use mle::types::{Grouping, Retrieval};
 
 #[pyfunction]
