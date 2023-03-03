@@ -286,6 +286,7 @@ dependencies = [
 name = "retrieval_importance"
 version = "0.1.0"
 dependencies = [
+ "itertools",
  "mle",
  "pyo3",
 ]

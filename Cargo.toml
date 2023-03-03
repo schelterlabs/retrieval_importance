@@ -10,4 +10,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = "0.18.1"
+itertools = "0.10.5"
 mle = { path = "../mle" }

@@ -2,7 +2,8 @@ use pyo3::prelude::*;
 use pyo3::types::PyList;
 use pyo3::types::PyDict;
 
-use mle::types::Retrieval;
+use itertools::Itertools;
+use mle::types::{Grouping, Retrieval};
 
 #[pyfunction]
 fn learn_importance(
@@ -11,13 +12,15 @@ fn learn_importance(
     learning_rate: f64,
     num_steps: usize,
     n_jobs: usize, // TODO allow for -1
+    grouping: Option<&PyList>,
 ) -> PyResult<Vec<f64>> {
 
     let mut retrievals: Vec<Retrieval> = Vec::with_capacity(py_retrievals.len());
     let mut corpus_size: usize = 0;
 
-    for d in py_retrievals.iter() {
-        let retrieved: Vec<usize> = d.downcast::<PyDict>()?
+    // TODO add helpful error messages
+    for py_retrieval in py_retrievals.iter() {
+        let retrieved: Vec<usize> = py_retrieval.downcast::<PyDict>()?
             .get_item("retrieved").unwrap()
             .downcast::<PyList>()?.extract().unwrap();
 
@@ -25,17 +28,31 @@ fn learn_importance(
             corpus_size = *retrieved.iter().max().unwrap();
         }
 
-        let utility_contributions: Vec<f64> = d.downcast::<PyDict>()?
+        let utility_contributions: Vec<f64> = py_retrieval.downcast::<PyDict>()?
             .get_item("utility_contributions").unwrap()
             .downcast::<PyList>()?.extract().unwrap();
 
         retrievals.push(Retrieval::new(retrieved, utility_contributions));
     }
 
+    let decoded_grouping = if let Some(py_grouping) = grouping {
+        let group_assignments: Vec<usize> = py_grouping.downcast::<PyList>()?.extract().unwrap();
+        let num_groups = group_assignments
+            .iter()
+            .unique() // TODO not sure if hashing things is the fastest option here
+            .count();
+
+        Some(Grouping::new(num_groups, group_assignments))
+    } else {
+        None
+    };
+
+    let grouping_reference = decoded_grouping.as_ref();
+
     let v = mle::mle_importance(
         retrievals,
         corpus_size + 1,
-        None,
+        grouping_reference,
         k,
         learning_rate,
         num_steps,
@@ -43,13 +60,8 @@ fn learn_importance(
     );
 
     Ok(v)
-    /*Python::with_gil(|py| {
-        let v_as_py_list: PyList = (*<&PyList as Into<PyAny>>::into(PyList::new(py, v))).extract().unwrap();
-        Ok(v_as_py_list)
-    })*/
 }
 
-/// A Python module implemented in Rust.
 #[pymodule]
 fn retrieval_importance(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(learn_importance, m)?)?;
