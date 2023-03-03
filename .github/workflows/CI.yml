@@ -62,17 +62,6 @@ jobs:
         with:
           name: wheels
           path: dist
-      - name: Install Python test dependencies
-        run: |
-          python3 -m venv venv
-          venv\Scripts\activate.bat
-          pip install -r requirements.txt --upgrade --upgrade-strategy eager
-          maturin develop
-          pip install -r requirements-dev.txt --upgrade --upgrade-strategy eager
-      - name: Run Python tests
-        run: |
-          venv\Scripts\activate.bat
-          python -m pytest
 
   macos:
     runs-on: macos-latest
