@@ -1,3 +1,5 @@
+from pathlib import Path
+
 def encode_retrievals(retrievals, retrieved_key, prediction_key, utility):
 
     encoded_retrievals = []
@@ -86,3 +88,7 @@ def most_important_groups(v_per_group, how_many):
 def least_important_groups(v_per_group, how_many):
     sorted_importances = sorted(v_per_group.items(), key=lambda x:x[1])
     return sorted_importances[:how_many]
+
+def get_project_root() -> Path:
+    """Returns the project root folder."""
+    return Path(__file__).parent.parent.parent
