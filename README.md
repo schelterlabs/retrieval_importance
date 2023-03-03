@@ -14,4 +14,5 @@
  * Optional steps:
     * Run the tests with `cargo test --release`
     * Run the benchmarks with `cargo bench`
+    * Start jupyter with `jupyter notebook` and run the example notebooks
  
