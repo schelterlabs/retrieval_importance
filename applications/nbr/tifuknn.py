@@ -10,10 +10,7 @@ def eprint(*args, **kwargs):
 
 
 class TIFUKNN:
-    def __init__(self, train_baskets, distance_metric='minkowski', k=300, kplus=0,
-                 m=7, rb=1, rg=0.6, alpha=0.7):
-
-        self.train_baskets = train_baskets
+    def __init__(self, train_baskets, k=300, kplus=0, m=7, rb=1, rg=0.6, alpha=0.7):
 
         self.k = k
         self.kplus = kplus
@@ -22,57 +19,40 @@ class TIFUKNN:
         self.rg = rg
         self.alpha = alpha
 
-        self.user_keys = []
+        self.num_users = train_baskets['user_id'].max() + 1
+        self.num_items = train_baskets['item_id'].max() + 1
         self.user_reps = []
-        self.item_id_mapper = {}
-        self.id_item_mapper = {}
-        self.user_map = {}
-        self.distance_metric = distance_metric
-        self.all_user_nns = {}
+        self.nn_indices = []
 
-        self.all_items = self.train_baskets[['item_id']].drop_duplicates()['item_id'].tolist()
-        self.all_users = self.train_baskets[['user_id']].drop_duplicates()['user_id'].tolist()
+        self._compute_user_representations(train_baskets)
 
-        counter = 0
-        for i in range(len(self.all_items)):
-            self.item_id_mapper[self.all_items[i]] = counter
-            self.id_item_mapper[counter] = self.all_items[i]
-            counter += 1
+    def _compute_user_representations(self, train_baskets):
 
-    def train(self):
-        # sorted_baskets = self.train_baskets.sort_values(['user_id','date'])
-        sorted_baskets = self.train_baskets.sort_values(['user_id', 'order_number'])
-        sorted_baskets = sorted_baskets[['user_id','basket_id']].drop_duplicates()
+        sorted_baskets = train_baskets.sort_values(['user_id', 'order_number'])
+        sorted_baskets = sorted_baskets[['user_id', 'basket_id']].drop_duplicates()
         user_baskets_df = sorted_baskets.groupby('user_id')['basket_id'].apply(list).reset_index()
         user_baskets_dict = dict(zip(user_baskets_df['user_id'], user_baskets_df['basket_id']))
 
-        basket_items_df = self.train_baskets[['basket_id', 'item_id']].drop_duplicates().groupby('basket_id')['item_id'] \
+        basket_items_df = train_baskets[['basket_id', 'item_id']].drop_duplicates().groupby('basket_id')['item_id'] \
             .apply(list).reset_index()
         basket_items_dict = dict(zip(basket_items_df['basket_id'], basket_items_df['item_id']))
 
         basket_reps = {}
-        counter = 0
+
         for basket in basket_items_dict:
-            counter += 1
-            #if counter % 10000 == 0:
-            #    eprint(counter, ' baskets passed')
-            rep = np.zeros(len(self.item_id_mapper))
+            rep = np.zeros(self.num_items)
             for item in basket_items_dict[basket]:
-                if item in self.item_id_mapper:
-                    rep[self.item_id_mapper[item]] = 1
+                rep[item] = 1
             basket_reps[basket] = rep
 
-        user_keys = []
         user_reps = []
-        counter = 0
-        for user in self.all_users:
-            counter += 1
-            # if counter % 1000 == 0:
-            #    eprint(counter, ' users passed')
-            rep = np.zeros(len(self.item_id_mapper))
+
+        for user in range(self.num_users):
+
+            rep = np.zeros(self.num_items)
 
             baskets = user_baskets_dict[user]
-            group_size = math.ceil(len(baskets)/self.m)
+            group_size = math.ceil(len(baskets) / self.m)
             addition = (group_size * self.m) - len(baskets)
 
             basket_groups = []
@@ -81,7 +61,7 @@ class TIFUKNN:
                 basket_groups.append(baskets[group_size-addition+(i * group_size):group_size-addition+((i+1) * group_size)])
 
             for i in range(self.m):
-                group_rep = np.zeros(len(self.item_id_mapper))#np.array([0.0] * len(self.item_id_mapper))
+                group_rep = np.zeros(self.num_items)
                 for j in range(1, len(basket_groups[i])+1):
                     basket = basket_groups[i][j-1]
                     basket_rep = np.array(basket_reps[basket]) * math.pow(self.rb, group_size-j)
@@ -92,42 +72,35 @@ class TIFUKNN:
 
             rep /= self.m
             user_reps.append(rep)
-            user_keys.append(user)
 
-        self.user_keys = user_keys
-        self.user_reps = np.array(user_reps)
-        self.user_map = dict(zip(user_keys, range(len(user_keys))))
-
-        # TODO use sparse rep
-        #  representations = csr_matrix(self.user_reps)
-        nbrs = NearestNeighbors(n_neighbors=self.k + 1 + self.kplus, algorithm='brute', metric=self.distance_metric) \
+        self.user_reps = np.array(user_reps)  # TODO use sparse rep
+        nbrs = NearestNeighbors(n_neighbors=self.k + 1 + self.kplus, algorithm='brute', metric='cosine') \
             .fit(user_reps)
+
         # We need to make sure that we don't receive neighbors with zero overlap, therefore a radius query is required
         distances, indices = nbrs.radius_neighbors(X=user_reps, radius=0.99, return_distance=True, sort_results=True)
-        self.nn_indices = []
         how_many = self.k + 1 + self.kplus
         for indices_for_one in indices:
             self.nn_indices.append(indices_for_one[:how_many])
 
-    def predict(self):
-        ret_dict = {}
-        for i in range(len(self.user_keys)):
-            user = self.user_keys[i]
-            user_rep = self.user_reps[i]
-            
-            nn_rep = np.zeros(len(user_rep))
-            user_nns = self.nn_indices[i].tolist()[1:]
-            user_nns = user_nns[:self.k + 1]
-            for neighbor in user_nns:
-                nn_rep += self.user_reps[neighbor]
-            self.all_user_nns[user] = user_nns
-            nn_rep /= len(user_nns)
+    def retrieve_for(self, user):
+        how_many = self.k + 1 + self.kplus
+        # Skip user itself
+        return self.nn_indices[user][1:how_many]
 
-            final_rep = (user_rep * self.alpha + (1-self.alpha) * nn_rep).tolist()
-            final_rep_sorted = sorted(range(len(final_rep)), key=lambda pos: final_rep[pos], reverse=True)
+    def representation(self, user):
+        return self.user_reps[user]
 
-            top_items = []
-            for item_index in final_rep_sorted:
-                top_items.append(self.id_item_mapper[item_index])
-            ret_dict[user] = top_items
-        return ret_dict
+    def predict(self, user, neighbors, how_many):
+        user_rep = self.user_reps[user]
+
+        nn_rep = np.zeros(self.num_items)
+        for neighbor in neighbors:
+            nn_rep += self.user_reps[neighbor]
+
+        nn_rep /= len(neighbors)
+
+        final_rep = (user_rep * self.alpha + (1-self.alpha) * nn_rep).tolist()
+        top_items = sorted(range(len(final_rep)), key=lambda pos: final_rep[pos], reverse=True)
+
+        return top_items[:how_many]
