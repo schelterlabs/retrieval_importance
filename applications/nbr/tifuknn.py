@@ -100,10 +100,14 @@ class TIFUKNN:
 
         # TODO use sparse rep
         #  representations = csr_matrix(self.user_reps)
-        nbrs = NearestNeighbors(n_neighbors=self.k + 1 + self.kplus, algorithm='brute', metric=self.distance_metric)\
+        nbrs = NearestNeighbors(n_neighbors=self.k + 1 + self.kplus, algorithm='brute', metric=self.distance_metric) \
             .fit(user_reps)
-        distances, indices = nbrs.kneighbors(user_reps)
-        self.nn_indices = indices
+        # We need to make sure that we don't receive neighbors with zero overlap, therefore a radius query is required
+        distances, indices = nbrs.radius_neighbors(X=user_reps, radius=0.99, return_distance=True, sort_results=True)
+        self.nn_indices = []
+        how_many = self.k + 1 + self.kplus
+        for indices_for_one in indices:
+            self.nn_indices.append(indices_for_one[:how_many])
 
     def predict(self):
         ret_dict = {}
@@ -113,7 +117,7 @@ class TIFUKNN:
             
             nn_rep = np.zeros(len(user_rep))
             user_nns = self.nn_indices[i].tolist()[1:]
-            user_nns = user_nns[:self.k]
+            user_nns = user_nns[:self.k + 1]
             for neighbor in user_nns:
                 nn_rep += self.user_reps[neighbor]
             self.all_user_nns[user] = user_nns
