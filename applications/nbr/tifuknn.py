@@ -104,3 +104,19 @@ class TIFUKNN:
         top_items = sorted(range(len(final_rep)), key=lambda pos: final_rep[pos], reverse=True)
 
         return top_items[:how_many]
+    
+    def predict_weighted(self, user, neighbors, weights, how_many):
+        user_rep = self.user_reps[user]
+
+        nn_rep = np.zeros(self.num_items)
+        w = 0.0
+        for neighbor in neighbors:
+            nn_rep += self.user_reps[neighbor] * weights[neighbor]
+            w += weights[neighbor]
+
+        nn_rep /= w
+
+        final_rep = (user_rep * self.alpha + (1-self.alpha) * nn_rep).tolist()
+        top_items = sorted(range(len(final_rep)), key=lambda pos: final_rep[pos], reverse=True)
+
+        return top_items[:how_many]
