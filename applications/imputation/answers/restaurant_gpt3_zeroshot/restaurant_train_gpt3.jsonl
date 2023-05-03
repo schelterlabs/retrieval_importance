@@ -1,0 +1,622 @@
+{"question": "name: arnie morton's of chicago addr: 435 s. la cienega blv. phone: 310/246-1501 type: american city?", "answer": "Los Angeles, California"}
+{"question": "name: arnie morton's of chicago addr: 435 s. la cienega blvd. phone: 310-246-1501 type: steakhouses city?", "answer": "Los Angeles, CA"}
+{"question": "name: art's deli addr: 12224 ventura blvd. phone: 818-762-1221 type: delis city?", "answer": "Studio City"}
+{"question": "name: hotel bel-air addr: 701 stone canyon rd. phone: 310/472-1211 type: californian city?", "answer": ["Wrong"]}
+{"question": "name: bel-air hotel addr: 701 stone canyon rd. phone: 310-472-1211 type: californian city?", "answer": "Bel-Air Hotel is located in Los Angeles, California."}
+{"question": "name: cafe bizou addr: 14016 ventura blvd. phone: 818/788-3536 type: french city?", "answer": "Sherman Oaks, CA"}
+{"question": "name: campanile addr: 624 s. la brea ave. phone: 213/938-1447 type: american city?", "answer": "Los Angeles, CA"}
+{"question": "name: campanile addr: 624 s. la brea ave. phone: 213-938-1447 type: californian city?", "answer": "Los Angeles"}
+{"question": "name: chinois on main addr: 2709 main st. phone: 310-392-9025 type: pacific new wave city?", "answer": "Vancouver"}
+{"question": "name: citrus addr: 6703 melrose ave. phone: 213/857-0034 type: californian city?", "answer": "Los Angeles"}
+{"question": "name: citrus addr: 6703 melrose ave. phone: 213-857-0034 type: californian city?", "answer": "los angeles"}
+{"question": "name: fenix addr: 8358 sunset blvd. west phone: 213/848-6677 type: american city?", "answer": "Los Angeles"}
+{"question": "name: fenix at the argyle addr: 8358 sunset blvd. phone: 213-848-6677 type: french (new) city?", "answer": "Los Angeles"}
+{"question": "name: granita addr: 23725 w. malibu rd. phone: 310/456-0488 type: californian city?", "answer": "Malibu, California"}
+{"question": "name: granita addr: 23725 w. malibu rd. phone: 310-456-0488 type: californian city?", "answer": "Malibu"}
+{"question": "name: grill on the alley addr: 9560 dayton way phone: 310/276-0615 type: american city?", "answer": "Beverly Hills, California"}
+{"question": "name: grill  the addr: 9560 dayton way phone: 310-276-0615 type: american (traditional) city?", "answer": "Los Angeles, CA"}
+{"question": "name: restaurant katsu addr: 1972 n. hillhurst ave. phone: 213/665-1891 type: asian city?", "answer": "Los Angeles, CA"}
+{"question": "name: katsu addr: 1972 hillhurst ave. phone: 213-665-1891 type: japanese city?", "answer": "los angeles"}
+{"question": "name: l'orangerie addr: 903 n. la cienega blvd. phone: 310/652-9770 type: french city?", "answer": "Los Angeles"}
+{"question": "name: le chardonnay (los angeles) addr: 8284 melrose ave. phone: 213-655-8880 type: french bistro city?", "answer": "Los Angeles"}
+{"question": "name: locanda veneta addr: 3rd st. phone: 310/274-1893 type: italian city?", "answer": "los angeles\n\nYes, the restaurant is located in Los Angeles."}
+{"question": "name: locanda veneta addr: 8638 w. third st. phone: 310-274-1893 type: italian city?", "answer": "los angeles"}
+{"question": "name: matsuhisa addr: 129 n. la cienega blvd. phone: 310/659-9639 type: asian city?", "answer": "Los Angeles, CA"}
+{"question": "name: matsuhisa addr: 129 n. la cienega blvd. phone: 310-659-9639 type: seafood city?", "answer": "beverly hills\n\nYes, Matsuhisa is located in Beverly Hills, California."}
+{"question": "name: philippe's the original addr: 1001 n. alameda st. phone: 213/628-3781 type: american city?", "answer": "los angeles"}
+{"question": "name: pinot bistro addr: 12969 ventura blvd. phone: 818/990-0500 type: french city?", "answer": "Studio City, CA"}
+{"question": "name: pinot bistro addr: 12969 ventura blvd. phone: 818-990-0500 type: french bistro city?", "answer": "Studio City, CA"}
+{"question": "name: rex il ristorante addr: 617 s. olive st. phone: 213/627-2300 type: italian city?", "answer": "Los Angeles, CA"}
+{"question": "name: spago addr: 1114 horn ave. phone: 310/652-4025 type: californian city?", "answer": "The city associated with the address 1114 Horn Ave. is Los Angeles, California."}
+{"question": "name: spago (los angeles) addr: 8795 sunset blvd. phone: 310-652-4025 type: californian city?", "answer": "Los Angeles"}
+{"question": "name: valentino addr: 3115 pico blvd. phone: 310-829-4313 type: italian city?", "answer": "santa monica"}
+{"question": "name: yujean kang's gourmet chinese cuisine addr: 67 n. raymond ave. phone: 818/585-0855 type: asian city?", "answer": "Pasadena, CA"}
+{"question": "name: yujean kang's addr: 67 n. raymond ave. phone: 818-585-0855 type: chinese city?", "answer": "pasadena"}
+{"question": "name: 21 club addr: 21 w. 52nd st. phone: 212/582-7200 type: american city?", "answer": "New York City"}
+{"question": "name: 21 club addr: 21 w. 52nd st. phone: 212-582-7200 type: american (new) city?", "answer": "new york"}
+{"question": "name: aquavit addr: 13 w. 54th st. phone: 212/307-7311 type: continental city?", "answer": "new york"}
+{"question": "name: aquavit addr: 13 w. 54th st. phone: 212-307-7311 type: scandinavian city?", "answer": "new york"}
+{"question": "name: aureole addr: 34 e. 61st st. phone: 212/ 319-1660 type: american city?", "answer": "New York"}
+{"question": "name: aureole addr: 34 e. 61st st. phone: 212-319-1660 type: american (new) city?", "answer": "new york"}
+{"question": "name: cafe lalo addr: 201 w. 83rd st. phone: 212-496-6031 type: coffeehouses city?", "answer": "New York City"}
+{"question": "name: cafe des artistes addr: 1 w. 67th st. phone: 212/877-3500 type: continental city?", "answer": ["Wrong"]}
+{"question": "name: cafe des artistes addr: 1 w. 67th st. phone: 212-877-3500 type: french (classic) city?", "answer": "New York City"}
+{"question": "name: carmine's addr: 2450 broadway  between 90th and 91st sts. phone: 212/362-2200 type: italian city?", "answer": "new york"}
+{"question": "name: carnegie deli addr: 854 7th ave.  between 54th and 55th sts. phone: 212/757-2245 type: delicatessen city?", "answer": "New York City"}
+{"question": "name: carnegie deli addr: 854 seventh ave. phone: 212-757-2245 type: delis city?", "answer": "New York City"}
+{"question": "name: chanterelle addr: 2 harrison st.  near hudson st. phone: 212/966-6960 type: american city?", "answer": "The restaurant Chanterelle is located in New York City."}
+{"question": "name: chanterelle addr: 2 harrison st. phone: 212-966-6960 type: french (new) city?", "answer": "New York City"}
+{"question": "name: daniel addr: 20 e. 76th st. phone: 212/288-0033 type: french city?", "answer": "New York City"}
+{"question": "name: dawat addr: 210 e. 58th st. phone: 212/355-7555 type: asian city?", "answer": "New York City"}
+{"question": "name: four seasons grill room addr: 99 e. 52nd st. phone: 212/754-9494 type: american city?", "answer": "New York City"}
+{"question": "name: four seasons addr: 99 e. 52nd st. phone: 212-754-9494 type: american (new) city?", "answer": "New York City"}
+{"question": "name: gotham bar & grill addr: 12 e. 12th st. phone: 212-620-4020 type: american (new) city?", "answer": "new york"}
+{"question": "name: island spice addr: 402 w. 44th st. phone: 212-765-1737 type: caribbean city?", "answer": "New York City"}
+{"question": "name: jo jo addr: 160 e. 64th st. phone: 212/223-5656 type: american city?", "answer": "new york"}
+{"question": "name: jo jo addr: 160 e. 64th st. phone: 212-223-5656 type: french bistro city?", "answer": "New York City"}
+{"question": "name: la caravelle addr: 33 w. 55th st. phone: 212/586-4252 type: french city?", "answer": "New York City"}
+{"question": "name: la cote basque addr: 60 w. 55th st.  between 5th and 6th ave. phone: 212/688-6525 type: french city?", "answer": "New York City"}
+{"question": "name: la cote basque addr: 60 w. 55th st. phone: 212-688-6525 type: french (classic) city?", "answer": "New York City"}
+{"question": "name: le bernardin addr: 155 w. 51st st. phone: 212/489-1515 type: french city?", "answer": "New York City"}
+{"question": "name: lutece addr: 249 e. 50th st. phone: 212/752-2225 type: french city?", "answer": "New York City"}
+{"question": "name: manhattan ocean club addr: 57 w. 58th st. phone: 212/ 371-7777 type: seafood city?", "answer": "The city for the Manhattan Ocean Club is New York City."}
+{"question": "name: manhattan ocean club addr: 57 w. 58th st. phone: 212-371-7777 type: seafood city?", "answer": "The city is New York, NY."}
+{"question": "name: march addr: 405 e. 58th st. phone: 212-754-6272 type: american (new) city?", "answer": "new york"}
+{"question": "name: mesa grill addr: 102 fifth ave. phone: 212-807-7400 type: southwestern city?", "answer": "New York City"}
+{"question": "name: mi cocina addr: 57 jane st. phone: 212-627-8273 type: mexican city?", "answer": "New York City"}
+{"question": "name: montrachet addr: 239 w. broadway  between walker and white sts. phone: 212/ 219-2777 type: french city?", "answer": "New York City"}
+{"question": "name: montrachet addr: 239 w. broadway phone: 212-219-2777 type: french bistro city?", "answer": "New York City"}
+{"question": "name: oceana addr: 55 e. 54th st. phone: 212/759-5941 type: seafood city?", "answer": "New York City"}
+{"question": "name: oceana addr: 55 e. 54th st. phone: 212-759-5941 type: seafood city?", "answer": "New York City"}
+{"question": "name: park avenue cafe addr: 100 e. 63rd st. phone: 212/644-1900 type: american city?", "answer": "New York City"}
+{"question": "name: park avenue cafe (new york city) addr: 100 e. 63rd st. phone: 212-644-1900 type: american (new) city?", "answer": "New York City"}
+{"question": "name: petrossian addr: 182 w. 58th st. phone: 212/245-2214 type: french city?", "answer": "New York City"}
+{"question": "name: petrossian addr: 182 w. 58th st. phone: 212-245-2214 type: russian city?", "answer": "New York City"}
+{"question": "name: picholine addr: 35 w. 64th st. phone: 212-724-8585 type: mediterranean city?", "answer": "new york"}
+{"question": "name: pisces addr: 95 ave. a at 6th st. phone: 212/260-6660 type: seafood city?", "answer": "New York"}
+{"question": "name: pisces addr: 95 ave. a phone: 212-260-6660 type: seafood city?", "answer": "New York"}
+{"question": "name: rainbow room addr: 30 rockefeller plaza phone: 212-632-5000 type: american (new) city?", "answer": "New York City"}
+{"question": "name: river cafe addr: 1 water st. at the east river phone: 718/522-5200 type: american city?", "answer": "The River Cafe is located in Brooklyn, New York."}
+{"question": "name: river cafe addr: 1 water st. phone: 718-522-5200 type: american (new) city?", "answer": "New York City"}
+{"question": "name: san domenico addr: 240 central park s phone: 212/265-5959 type: italian city?", "answer": "new york"}
+{"question": "name: san domenico addr: 240 central park s. phone: 212-265-5959 type: italian city?", "answer": "new york"}
+{"question": "name: second avenue deli addr: 156 2nd ave. at 10th st. phone: 212/677-0606 type: delicatessen city?", "answer": "New York City"}
+{"question": "name: second avenue deli addr: 156 second ave. phone: 212-677-0606 type: delis city?", "answer": "New York, NY"}
+{"question": "name: seryna addr: 11 e. 53rd st. phone: 212-980-9393 type: japanese city?", "answer": "new york"}
+{"question": "name: shun lee west addr: 43 w. 65th st. phone: 212/371-8844 type: asian city?", "answer": "New York City"}
+{"question": "name: shun lee palace addr: 155 e. 55th st. phone: 212-371-8844 type: chinese city?", "answer": "New York City"}
+{"question": "name: sign of the dove addr: 1110 3rd ave. at 65th st. phone: 212/861-8080 type: american city?", "answer": "new york"}
+{"question": "name: sign of the dove addr: 1110 third ave. phone: 212-861-8080 type: american (new) city?", "answer": "New York City"}
+{"question": "name: smith & wollensky addr: 201 e. 49th st. phone: 212/753-1530 type: american city?", "answer": "New York City"}
+{"question": "name: smith & wollensky addr: 797 third ave. phone: 212-753-1530 type: steakhouses city?", "answer": "New York, NY"}
+{"question": "name: tavern on the green addr: in central park at 67th st. phone: 212/873-3200 type: american city?", "answer": "New York City"}
+{"question": "name: uncle nick's addr: 747 9th ave.  between 50th and 51st sts. phone: 212/315-1726 type: mediterranean city?", "answer": "New York, NY"}
+{"question": "name: union square cafe addr: 21 e. 16th st. phone: 212/243-4020 type: american city?", "answer": "New York City"}
+{"question": "name: union square cafe addr: 21 e. 16th st. phone: 212-243-4020 type: american (new) city?", "answer": "New York, NY"}
+{"question": "name: virgil's addr: 152 w. 44th st. phone: 212/ 921-9494 type: american city?", "answer": "new york"}
+{"question": "name: virgil's real bbq addr: 152 w. 44th st. phone: 212-921-9494 type: bbq city?", "answer": "new york"}
+{"question": "name: chin's addr: 3200 las vegas blvd. s phone: 702/733-8899 type: asian city?", "answer": "Las Vegas"}
+{"question": "name: chin's addr: 3200 las vegas blvd. s. phone: 702-733-8899 type: chinese city?", "answer": "Las Vegas"}
+{"question": "name: le montrachet addr: 3000 w. paradise rd. phone: 702/732-5111 type: continental city?", "answer": "Las Vegas"}
+{"question": "name: palace court addr: 3570 las vegas blvd. s phone: 702/731-7547 type: continental city?", "answer": "Las Vegas"}
+{"question": "name: palace court addr: 3570 las vegas blvd. s. phone: 702-731-7110 type: french (new) city?", "answer": "Las Vegas"}
+{"question": "name: second street grille addr: 200 e. fremont st. phone: 702/385-3232 type: seafood city?", "answer": "las vegas"}
+{"question": "name: second street grill addr: 200 e. fremont st. phone: 702-385-6277 type: pacific rim city?", "answer": "las vegas"}
+{"question": "name: steak house addr: 2880 las vegas blvd. s phone: 702/734-0410 type: steak houses city?", "answer": "Las Vegas"}
+{"question": "name: steak house  the addr: 2880 las vegas blvd. s. phone: 702-734-0410 type: steakhouses city?", "answer": "Las Vegas, NV"}
+{"question": "name: tillerman addr: 2245 e. flamingo rd. phone: 702/731-4036 type: seafood city?", "answer": "las vegas"}
+{"question": "name: tillerman  the addr: 2245 e. flamingo rd. phone: 702-731-4036 type: steakhouses city?", "answer": "Las Vegas, NV"}
+{"question": "name: abruzzi addr: 2355 peachtree rd.  peachtree battle shopping center phone: 404/261-8186 type: italian city?", "answer": "Atlanta, GA"}
+{"question": "name: bacchanalia addr: 3125 piedmont rd.  near peachtree rd. phone: 404/365-0410 type: international city?", "answer": "Atlanta"}
+{"question": "name: bacchanalia addr: 3125 piedmont rd. phone: 404-365-0410 type: californian city?", "answer": "atlanta\n\nNo, Bacchanalia is a restaurant located in Atlanta, Georgia."}
+{"question": "name: bone's addr: 3130 piedmont road phone: 404/237-2663 type: american city?", "answer": "Atlanta"}
+{"question": "name: bone's restaurant addr: 3130 piedmont rd. ne phone: 404-237-2663 type: steakhouses city?", "answer": "Atlanta\n\nYes, Bone's Restaurant is located in Atlanta, Georgia."}
+{"question": "name: brasserie le coze addr: 3393 peachtree rd.  lenox square mall  near neiman marcus phone: 404/266-1440 type: french city?", "answer": "Atlanta, GA"}
+{"question": "name: brasserie le coze addr: 3393 peachtree rd. phone: 404-266-1440 type: french bistro city?", "answer": "Atlanta, GA"}
+{"question": "name: buckhead diner addr: 3073 piedmont road phone: 404/262-3336 type: american city?", "answer": "Atlanta, GA"}
+{"question": "name: buckhead diner addr: 3073 piedmont rd. phone: 404-262-3336 type: american (new) city?", "answer": "Atlanta, GA"}
+{"question": "name: ciboulette addr: 1529 piedmont ave. phone: 404/874-7600 type: french city?", "answer": "Atlanta\n\nYes, the address is located in Atlanta, Georgia."}
+{"question": "name: ciboulette restaurant addr: 1529 piedmont ave. phone: 404-874-7600 type: french (new) city?", "answer": "Atlanta"}
+{"question": "name: delectables addr: 1 margaret mitchell sq. phone: 404-681-2909 type: cafeterias city?", "answer": "atlanta\n\nYes, Delectables is located in Atlanta, Georgia."}
+{"question": "name: georgia grille addr: 2290 peachtree rd.  peachtree square shopping center phone: 404/352-3517 type: american city?", "answer": "Atlanta, GA"}
+{"question": "name: georgia grille addr: 2290 peachtree rd. phone: 404-352-3517 type: southwestern city?", "answer": "Atlanta, Georgia"}
+{"question": "name: hedgerose heights inn addr: 490 e. paces ferry rd. phone: 404/233-7673 type: international city?", "answer": "Atlanta, Georgia"}
+{"question": "name: hedgerose heights inn  the addr: 490 e. paces ferry rd. ne phone: 404-233-7673 type: continental city?", "answer": "The city for the Hedgerose Heights Inn is Atlanta, Georgia."}
+{"question": "name: heera of india addr: 595 piedmont ave.  rio shopping mall phone: 404/876-4408 type: asian city?", "answer": "Atlanta, GA"}
+{"question": "name: indigo coastal grill addr: 1397 n. highland ave. phone: 404/876-0676 type: caribbean city?", "answer": "atlanta\n\nYes, Indigo Coastal Grill is located in Atlanta, Georgia."}
+{"question": "name: indigo coastal grill addr: 1397 n. highland ave. phone: 404-876-0676 type: eclectic city?", "answer": "atlanta\n\nYes, Indigo Coastal Grill is located in Atlanta, Georgia."}
+{"question": "name: la grotta addr: 2637 peachtree rd.  peachtree house condominium phone: 404/231-1368 type: italian city?", "answer": "Atlanta, GA"}
+{"question": "name: la grotta addr: 2637 peachtree rd. ne phone: 404-231-1368 type: italian city?", "answer": "atlanta"}
+{"question": "name: mary mac's tea room addr: 224 ponce de leon ave. phone: 404/876-1800 type: southern city?", "answer": "atlanta\n\nYes, Mary Mac's Tea Room is located in Atlanta, Georgia."}
+{"question": "name: mary mac's tea room addr: 224 ponce de leon ave. phone: 404-876-1800 type: southern/soul city?", "answer": "atlanta\n\nMary Mac's Tea Room is a Southern/Soul restaurant located in Atlanta, Georgia at 224 Ponce de Leon Avenue. The phone number is 404-876-1800."}
+{"question": "name: nikolai's roof addr: 255 courtland st.  at harris st. phone: 404/221-6362 type: continental city?", "answer": "Atlanta, GA"}
+{"question": "name: nikolai's roof addr: 255 courtland st. phone: 404-221-6362 type: continental city?", "answer": "Atlanta"}
+{"question": "name: pano's and paul's addr: 1232 w. paces ferry rd. phone: 404/261-3662 type: international city?", "answer": "Atlanta"}
+{"question": "name: pano's & paul's addr: 1232 w. paces ferry rd. phone: 404-261-3662 type: american (new) city?", "answer": "atlanta"}
+{"question": "name: cafe  ritz-carlton  buckhead addr: 3434 peachtree rd. phone: 404/237-2700 type: ext 6108 international city?", "answer": "Atlanta, GA"}
+{"question": "name: ritz-carlton cafe (buckhead) addr: 3434 peachtree rd. ne phone: 404-237-2700 type: american (new) city?", "answer": "Atlanta, GA"}
+{"question": "name: ritz-carlton dining room (buckhead) addr: 3434 peachtree rd. ne phone: 404-237-2700 type: american (new) city?", "answer": "Atlanta, GA"}
+{"question": "name: restaurant  ritz-carlton  atlanta addr: 181 peachtree st. phone: 404/659-0400 type: continental city?", "answer": "Atlanta, GA"}
+{"question": "name: ritz-carlton restaurant addr: 181 peachtree st. phone: 404-659-0400 type: french (classic) city?", "answer": "Atlanta, Georgia"}
+{"question": "name: toulouse addr: b peachtree rd. phone: 404/351-9533 type: french city?", "answer": "Toulouse is a city in southwestern France."}
+{"question": "name: toulouse addr: 293-b peachtree rd. phone: 404-351-9533 type: french (new) city?", "answer": "Toulouse, France"}
+{"question": "name: veni vidi vici addr: 41 14th st. phone: 404/875-8424 type: italian city?", "answer": "Atlanta\n\nYes, the restaurant Veni Vidi Vici is located in Atlanta, Georgia."}
+{"question": "name: veni vidi vici addr: 41 14th st. phone: 404-875-8424 type: italian city?", "answer": "Atlanta\n\nYes, the restaurant Veni Vidi Vici is located in Atlanta, Georgia."}
+{"question": "name: alain rondelli addr: 126 clement st. phone: 415/387-0408 type: french city?", "answer": "san francisco"}
+{"question": "name: alain rondelli addr: 126 clement st. phone: 415-387-0408 type: french (new) city?", "answer": "san francisco"}
+{"question": "name: aqua addr: 252 california st. phone: 415/956-9662 type: seafood city?", "answer": "San Francisco"}
+{"question": "name: aqua addr: 252 california st. phone: 415-956-9662 type: american (new) city?", "answer": "san francisco"}
+{"question": "name: boulevard addr: 1 mission st. phone: 415/543-6084 type: american city?", "answer": "San Francisco"}
+{"question": "name: boulevard addr: 1 mission st. phone: 415-543-6084 type: american (new) city?", "answer": "San Francisco"}
+{"question": "name: cafe claude addr: 7 claude la. phone: 415/392-3505 type: french city?", "answer": "san francisco"}
+{"question": "name: cafe claude addr: 7 claude ln. phone: 415-392-3505 type: french bistro city?", "answer": "San Francisco"}
+{"question": "name: campton place addr: 340 stockton st. phone: 415/955-5555 type: american city?", "answer": "San Francisco"}
+{"question": "name: campton place addr: 340 stockton st. phone: 415-955-5555 type: american (new) city?", "answer": "san francisco"}
+{"question": "name: chez michel addr: 804 north point st. phone: 415-775-7036 type: californian city?", "answer": "San Francisco"}
+{"question": "name: fleur de lys addr: 777 sutter st. phone: 415/673-7779 type: french city?", "answer": "san francisco"}
+{"question": "name: fleur de lys addr: 777 sutter st. phone: 415-673-7779 type: french (new) city?", "answer": "san francisco"}
+{"question": "name: fringale addr: 570 4th st. phone: 415/543-0573 type: french city?", "answer": "san francisco"}
+{"question": "name: fringale addr: 570 fourth st. phone: 415-543-0573 type: french bistro city?", "answer": "San Francisco"}
+{"question": "name: hawthorne lane addr: 22 hawthorne st. phone: 415/777-9779 type: american city?", "answer": "San Francisco"}
+{"question": "name: khan toke thai house addr: 5937 geary blvd. phone: 415/668-6654 type: asian city?", "answer": "San Francisco"}
+{"question": "name: khan toke thai house addr: 5937 geary blvd. phone: 415-668-6654 type: thai city?", "answer": "San Francisco"}
+{"question": "name: la folie addr: 2316 polk st. phone: 415/776-5577 type: french city?", "answer": "san francisco"}
+{"question": "name: masa's addr: 648 bush st. phone: 415/989-7154 type: french city?", "answer": "san francisco"}
+{"question": "name: mifune japan center  kintetsu building addr: 1737 post st. phone: 415/922-0337 type: asian city?", "answer": "San Francisco"}
+{"question": "name: plumpjack cafe addr: 3201 fillmore st. phone: 415/563-4755 type: mediterranean city?", "answer": "san francisco"}
+{"question": "name: plumpjack cafe addr: 3127 fillmore st. phone: 415-563-4755 type: american (new) city?", "answer": "San Francisco"}
+{"question": "name: postrio addr: 545 post st. phone: 415/776-7825 type: american city?", "answer": "san francisco"}
+{"question": "name: postrio addr: 545 post st. phone: 415-776-7825 type: californian city?", "answer": "san francisco"}
+{"question": "name: ritz-carlton dining room (san francisco) addr: 600 stockton st. phone: 415-296-7465 type: french (new) city?", "answer": "San Francisco"}
+{"question": "name: rose pistola addr: 532 columbus ave. phone: 415/399-0499 type: italian city?", "answer": "san francisco"}
+{"question": "name: rose pistola addr: 532 columbus ave. phone: 415-399-0499 type: italian city?", "answer": "san francisco"}
+{"question": "name: adriano's ristorante addr: 2930 beverly glen circle phone: 310/475-9807 type: italian city?", "answer": "The city for Adriano's Ristorante is Los Angeles, California."}
+{"question": "name: border grill addr: 4th st. phone: 310/451-1655 type: mexican city?", "answer": "Los Angeles"}
+{"question": "name: ca'brea addr: 346 s. la brea ave. phone: 213/938-2863 type: italian city?", "answer": "los angeles"}
+{"question": "name: cafe pinot addr: 700 w. fifth st. phone: 213/239-6500 type: californian city?", "answer": "Los Angeles"}
+{"question": "name: california pizza kitchen addr: 207 s. beverly dr. phone: 310/275-1101 type: californian city?", "answer": "The city is Beverly Hills, California."}
+{"question": "name: canter's addr: 419 n. fairfax ave. phone: 213/651-2030. type: american city?", "answer": "Los Angeles, California"}
+{"question": "name: cava addr: 3rd st. phone: 213/658-8898 type: mediterranean city?", "answer": "Los Angeles"}
+{"question": "name: cha cha cha addr: 656 n. virgil ave. phone: 213/664-7723 type: caribbean city?", "answer": "los angeles"}
+{"question": "name: chan dara addr: 310 n. larchmont blvd. phone: 213/467-1052 type: asian city?", "answer": "Los Angeles, CA"}
+{"question": "name: clearwater cafe addr: 168 w. colorado blvd. phone: 818/356-0959 type: health food city?", "answer": "pasadena\n\nYes, Clearwater Cafe is located in Pasadena, California."}
+{"question": "name: dive! addr: 10250 santa monica blvd. phone: 310/788- type: dive american city?", "answer": "Los Angeles"}
+{"question": "name: drago addr: 2628 wilshire blvd. phone: 310/828-1585 type: italian city?", "answer": "Los Angeles"}
+{"question": "name: drai's addr: 730 n. la cienega blvd. phone: 310/358-8585 type: french city?", "answer": "los angeles"}
+{"question": "name: dynasty room addr: 930 hilgard ave. phone: 310/208-8765 type: continental city?", "answer": "Los Angeles"}
+{"question": "name: ed debevic's addr: 134 n. la cienega phone: 310/659-1952 type: american city?", "answer": "Los Angeles, California"}
+{"question": "name: el cholo addr: 1121 s. western ave. phone: 213/734-2773 type: mexican city?", "answer": "los angeles"}
+{"question": "name: gilliland's addr: 2424 main st. phone: 310/392-3901 type: american city?", "answer": "Los Angeles"}
+{"question": "name: gladstone's addr: 4 fish 17300 pacific coast hwy. at sunset blvd. phone: 310/454-3474 type: american city?", "answer": "malibu"}
+{"question": "name: il fornaio cucina italiana addr: 301 n. beverly dr. phone: 310/550-8330 type: italian city?", "answer": "Beverly Hills, California"}
+{"question": "name: jack sprat's grill addr: 10668 w. pico blvd. phone: 310/837-6662 type: health food city?", "answer": "Los Angeles"}
+{"question": "name: joss addr: 9255 sunset blvd. phone: 310/276-1886 type: asian city?", "answer": "Los Angeles"}
+{"question": "name: le colonial addr: 8783 beverly blvd. phone: 310/289-0660 type: asian city?", "answer": "Los Angeles"}
+{"question": "name: le dome addr: 8720 sunset blvd. phone: 310/659-6919 type: french city?", "answer": "Los Angeles"}
+{"question": "name: louise's trattoria addr: 4500 los feliz blvd. phone: 213/667-0777 type: italian city?", "answer": "Los Angeles"}
+{"question": "name: morton's addr: 8764 melrose ave. phone: 310/276-5205 type: american city?", "answer": "Los Angeles"}
+{"question": "name: nate 'n' al's addr: 414 n. beverly dr. phone: 310/274-0101 type: american city?", "answer": "beverly hills"}
+{"question": "name: nicola addr: 601 s. figueroa st. phone: 213/485-0927 type: american city?", "answer": "los angeles"}
+{"question": "name: ocean avenue addr: 1401 ocean ave. phone: 310/394-5669 type: american city?", "answer": ["Wrong"]}
+{"question": "name: pacific dining car addr: 6th st. phone: 213/483-6000 type: american city?", "answer": "Los Angeles, California"}
+{"question": "name: paty's addr: 10001 riverside dr. phone: 818/761-9126 type: american city?", "answer": "The city associated with the address 10001 Riverside Dr. is Los Angeles, California."}
+{"question": "name: posto addr: 14928 ventura blvd. phone: 818/784-4400 type: italian city?", "answer": "Sherman Oaks, California"}
+{"question": "name: prego addr: 362 n. camden dr. phone: 310/277-7346 type: italian city?", "answer": "Beverly Hills"}
+{"question": "name: remi addr: 3rd st. promenade phone: 310/393-6545 type: italian city?", "answer": "Los Angeles"}
+{"question": "name: restaurant horikawa addr: 111 s. san pedro st. phone: 213/680-9355 type: asian city?", "answer": "Los Angeles, CA"}
+{"question": "name: roscoe's house of chicken 'n' waffles addr: 1514 n. gower st. phone: 213/466-9329 type: american city?", "answer": "Los Angeles, California"}
+{"question": "name: sofi addr: 3rd st. phone: 213/651-0346 type: mediterranean city?", "answer": "Los Angeles"}
+{"question": "name: swingers addr: 8020 beverly blvd. phone: 213/653-5858 type: american city?", "answer": "Los Angeles, California"}
+{"question": "name: tavola calda addr: 7371 melrose ave. phone: 213/658-6340 type: italian city?", "answer": "Los Angeles, CA"}
+{"question": "name: the mandarin addr: 430 n. camden dr. phone: 310/859-0926 type: asian city?", "answer": "Beverly Hills"}
+{"question": "name: vida addr: 1930 north hillhurst ave. phone: 213/660-4446 type: american city?", "answer": "Los Angeles"}
+{"question": "name: west beach cafe addr: 60 n. venice blvd. phone: 310/823-5396 type: american city?", "answer": "venice\n\nThe city for the West Beach Cafe is Venice, California."}
+{"question": "name: 20 mott addr: 20 mott st.  between bowery and pell st. phone: 212/964-0380 type: asian city?", "answer": "New York City"}
+{"question": "name: aja addr: 937 broadway at 22nd st. phone: 212/473-8388 type: american city?", "answer": "new york"}
+{"question": "name: alamo addr: 304 e. 48th st. phone: 212/ 759-0590 type: mexican city?", "answer": "New York City"}
+{"question": "name: alley's end addr: 311 w. 17th st. phone: 212/627-8899 type: american city?", "answer": "new york"}
+{"question": "name: american place addr: 2 park ave. at 32nd st. phone: 212/684-2122 type: american city?", "answer": "New York City"}
+{"question": "name: anche vivolo addr: 222 e. 58th st.  between 2nd and 3rd aves. phone: 212/308-0112 type: italian city?", "answer": "New York City"}
+{"question": "name: arizona addr: 206 206 e. 60th st. phone: 212/838-0440 type: american city?", "answer": "Phoenix\n\nYes, Phoenix is the capital of Arizona."}
+{"question": "name: arturo's addr: 106 w. houston st.  off thompson st. phone: 212/677-3820 type: italian city?", "answer": "The city is New York, NY."}
+{"question": "name: au mandarin addr: 200-250 vesey st. world financial center phone: 212/385-0313 type: asian city?", "answer": "New York City"}
+{"question": "name: big cup addr: 228 8th ave.  between 21st and 22nd sts. phone: 212/206-0059 type: coffee bar city?", "answer": "The city is New York, NY."}
+{"question": "name: billy's addr: 948 1st ave.  between 52nd and 53rd sts. phone: 212/753-1870 type: american city?", "answer": "New York City"}
+{"question": "name: bolo addr: 23 e. 22nd st. phone: 212/228-2200 type: mediterranean city?", "answer": "New York"}
+{"question": "name: boonthai addr: 1393a 2nd ave.  between 72nd and 73rd sts. phone: 212/249-8484 type: asian city?", "answer": "The city associated with this address is New York, NY."}
+{"question": "name: bouterin addr: 420 e. 59th st.  off 1st ave. phone: 212/758-0323 type: french city?", "answer": "New York City"}
+{"question": "name: bruno addr: 240 e. 58th st. phone: 212/688-4190 type: italian city?", "answer": "new york"}
+{"question": "name: bryant park grill  roof restaurant and bp cafe addr: 25 w. 40th st.  between 5th and 6th aves. phone: 212/840-6500 type: american city?", "answer": "New York City"}
+{"question": "name: ct addr: 111 e. 22nd st.  between park ave. s and lexington ave. phone: 212/995-8500 type: french city?", "answer": "New York City"}
+{"question": "name: cafe bianco addr: 1486 2nd ave.  between 77th and 78th sts. phone: 212/988-2655 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: cafe la fortuna addr: 69 w. 71st st. phone: 212/724-5846 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: cafe luxembourg addr: 200 w. 70th st. phone: 212/873-7411 type: french city?", "answer": "New York City"}
+{"question": "name: cafe pierre addr: 2 e. 61st st. phone: 212/940-8185 type: french city?", "answer": "new york"}
+{"question": "name: cafe centro addr: 200 park ave.  between 45th st. and vanderbilt ave. phone: 212/818-1222 type: french city?", "answer": "The city is New York, NY."}
+{"question": "name: caffe dell'artista addr: 46 greenwich ave. phone: 212/645-4431 type: coffee bar city?", "answer": "new york"}
+{"question": "name: caffe lure addr: 169 sullivan st.  between houston and bleecker sts. phone: 212/473-2642 type: french city?", "answer": "New York City"}
+{"question": "name: caffe reggio addr: 119 macdougal st.  between 3rd and bleecker sts. phone: 212/475-9557 type: coffee bar city?", "answer": "The city is New York, NY."}
+{"question": "name: caffe vivaldi addr: 32 jones st. at bleecker st. phone: 212/691-7538 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: caffe bondi ristorante addr: 7 w. 20th st. phone: 212/691-8136 type: italian city?", "answer": "new york"}
+{"question": "name: capsouto freres addr: 451 washington st.  near watts st. phone: 212/966-4900 type: french city?", "answer": "The restaurant Capsouto Freres is located in New York City."}
+{"question": "name: cendrillon asian grill & marimba bar addr: 45 mercer st.  between broome and grand sts. phone: 212/343-9012 type: asian city?", "answer": "New York City"}
+{"question": "name: chiam addr: 160 e. 48th st. phone: 212/371-2323 type: asian city?", "answer": "New York City"}
+{"question": "name: columbus bakery addr: 53rd sts. phone: 212/421-0334 type: coffee bar city?", "answer": "Columbus, Ohio"}
+{"question": "name: corrado cafe addr: 1013 3rd ave.  between 60th and 61st sts. phone: 212/753-5100 type: coffee bar city?", "answer": "The city is New York, NY."}
+{"question": "name: da nico addr: 164 mulberry st.  between grand and broome sts. phone: 212/343-1212 type: italian city?", "answer": "The city is New York, NY."}
+{"question": "name: diva addr: 341 w. broadway  near grand st. phone: 212/941-9024 type: italian city?", "answer": "New York City"}
+{"question": "name: dix et sept addr: 181 w. 10th st. phone: 212/645-8023 type: french city?", "answer": "New York City"}
+{"question": "name: docks addr: 633 3rd ave. at 40th st. phone: 212/ 986-8080 type: seafood city?", "answer": "new york"}
+{"question": "name: el teddy's addr: 219 w. broadway  between franklin and white sts. phone: 212/941-7070 type: mexican city?", "answer": "New York City"}
+{"question": "name: emily's addr: 1325 5th ave. at 111th st. phone: 212/996-1212 type: american city?", "answer": "New York City"}
+{"question": "name: empire korea addr: 6 e. 32nd st. phone: 212/725-1333 type: asian city?", "answer": "new york"}
+{"question": "name: evergreen cafe addr: 1288 1st ave. at 69th st. phone: 212/744-3266 type: asian city?", "answer": "New York City"}
+{"question": "name: f. ille ponte ristorante addr: 39 desbrosses st.  near west st. phone: 212/226-4621 type: italian city?", "answer": "New York, NY"}
+{"question": "name: felix addr: 340 w. broadway at grand st. phone: 212/431-0021 type: french city?", "answer": "New York City"}
+{"question": "name: ferrier addr: 29 e. 65th st. phone: 212/772-9000 type: french city?", "answer": "New York City"}
+{"question": "name: film center cafe addr: 635 9th ave.  between 44th and 45th sts. phone: 212/ 262-2525 type: american city?", "answer": "New York City"}
+{"question": "name: fiorello's roman cafe addr: 1900 broadway  between 63rd and 64th sts. phone: 212/595-5330 type: italian city?", "answer": "New York City"}
+{"question": "name: firehouse addr: 522 columbus ave.  between 85th and 86th sts. phone: 212/595-3139 type: american city?", "answer": "New York City"}
+{"question": "name: first addr: 87 1st ave.  between 5th and 6th sts. phone: 212/674-3823 type: american city?", "answer": "The city associated with this address is New York, NY."}
+{"question": "name: fleur de jour addr: 348 e. 62nd st. phone: 212/355-2020 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: flowers addr: 21 west 17th st.  between 5th and 6th aves. phone: 212/691-8888 type: american city?", "answer": "New York City"}
+{"question": "name: follonico addr: 6 w. 24th st. phone: 212/691-6359 type: italian city?", "answer": "new york"}
+{"question": "name: fraunces tavern addr: 54 pearl st. at broad st. phone: 212/269-0144 type: american city?", "answer": "New York City"}
+{"question": "name: french roast cafe addr: 2340 broadway at 85th st. phone: 212/799-1533 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: gabriela's addr: 685 amsterdam ave. at 93rd st. phone: 212/961-0574 type: mexican city?", "answer": "new york"}
+{"question": "name: golden unicorn addr: 18 e. broadway at catherine st. phone: 212/ 941-0911 type: asian city?", "answer": "New York City"}
+{"question": "name: halcyon addr: 151 w. 54th st.  in the rihga royal hotel phone: 212/468-8888 type: american city?", "answer": "New York City"}
+{"question": "name: hard rock cafe addr: 221 w. 57th st. phone: 212/489-6565 type: american city?", "answer": "New York City"}
+{"question": "name: hi-life restaurant and lounge addr: 1340 1st ave. at 72nd st. phone: 212/249-3600 type: american city?", "answer": "New York City"}
+{"question": "name: hudson river club addr: 4 world financial center phone: 212/786-1500 type: american city?", "answer": "New York City"}
+{"question": "name: il nido addr: 251 e. 53rd st. phone: 212/753-8450 type: italian city?", "answer": "New York City"}
+{"question": "name: inca grill addr: 492 broome st.  near w. broadway phone: 212/966-3371 type: latin american city?", "answer": "New York City"}
+{"question": "name: indochine addr: 430 lafayette st.  between 4th st. and astor pl. phone: 212/505-5111 type: asian city?", "answer": "The restaurant Indochine is located in New York City."}
+{"question": "name: internet cafe addr: 82 e. 3rd st.  between 1st and 2nd aves. phone: 212/ 614-0747 type: coffee bar city?", "answer": "The city is New York, NY."}
+{"question": "name: ipanema addr: 13 w. 46th st. phone: 212/730-5848 type: latin american city?", "answer": ["Wrong"]}
+{"question": "name: jean lafitte addr: 68 w. 58th st. phone: 212/751-2323 type: french city?", "answer": "New York City"}
+{"question": "name: jewel of india addr: 15 w. 44th st. phone: 212/869-5544 type: asian city?", "answer": "New York City"}
+{"question": "name: jimmy sung's addr: 219 e. 44th st.  between 2nd and 3rd aves. phone: 212/682-5678 type: asian city?", "answer": "New York, NY"}
+{"question": "name: joe allen addr: 326 w. 46th st. phone: 212/581-6464 type: american city?", "answer": "New York City"}
+{"question": "name: l'auberge addr: 1191 1st ave.  between 64th and 65th sts. phone: 212/288-8791 type: middle eastern city?", "answer": "New York City"}
+{"question": "name: l'auberge du midi addr: 310 w. 4th st.  between w. 12th and bank sts. phone: 212/242-4705 type: french city?", "answer": ["Wrong"]}
+{"question": "name: l'udo addr: 432 lafayette st.  near astor pl. phone: 212/388-0978 type: french city?", "answer": "The city is New York, NY."}
+{"question": "name: lanza restaurant addr: 168 1st ave.  between 10th and 11th sts. phone: 212/674-7014 type: italian city?", "answer": "The city for Lanza Restaurant is New York, NY."}
+{"question": "name: lattanzi ristorante addr: 361 w. 46th st. phone: 212/315-0980 type: italian city?", "answer": "new york"}
+{"question": "name: layla addr: 211 w. broadway at franklin st. phone: 212/431-0700 type: middle eastern city?", "answer": "new york"}
+{"question": "name: le chantilly addr: 106 e. 57th st. phone: 212/751-2931 type: french city?", "answer": "New York City"}
+{"question": "name: le colonial addr: 149 e. 57th st. phone: 212/ 752-0808 type: asian city?", "answer": "New York City"}
+{"question": "name: le gamin addr: 50 macdougal st.  between houston and prince sts. phone: 212/254-4678 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: le jardin addr: 25 cleveland pl.  near spring st. phone: 212/343-9599 type: french city?", "answer": ["Wrong"]}
+{"question": "name: le madri addr: 168 w. 18th st. phone: 212/727-8022 type: italian city?", "answer": ["Wrong"]}
+{"question": "name: le marais addr: 150 w. 46th st. phone: 212/869-0900 type: american city?", "answer": "New York City"}
+{"question": "name: le perigord addr: 405 e. 52nd st. phone: 212/755-6244 type: french city?", "answer": "New York City"}
+{"question": "name: le select addr: 507 columbus ave.  between 84th and 85th sts. phone: 212/875-1993 type: american city?", "answer": "New York City"}
+{"question": "name: les halles addr: 411 park ave. s  between 28th and 29th sts. phone: 212/679-4111 type: french city?", "answer": "New York City"}
+{"question": "name: lincoln tavern addr: 51 w. 64th st. phone: 212/721-8271 type: american city?", "answer": "New York City"}
+{"question": "name: lucky strike addr: 59 grand st.  between wooster st. and w. broadway phone: 212/941-0479 type: or 212/941-0772 american city?", "answer": "New York City, New York"}
+{"question": "name: mad fish addr: 2182 broadway  between 77th and 78th sts. phone: 212/787-0202 type: seafood city?", "answer": "New York City"}
+{"question": "name: main street addr: 446 columbus ave.  between 81st and 82nd sts. phone: 212/873-5025 type: american city?", "answer": "New York, NY"}
+{"question": "name: manhattan cafe addr: 1161 1st ave.  between 63rd and 64th sts. phone: 212/888-6556 type: american city?", "answer": "The city is New York, NY."}
+{"question": "name: manila garden addr: 325 e. 14th st.  between 1st and 2nd aves. phone: 212/777-6314 type: asian city?", "answer": "The city for Manila Garden is New York, NY."}
+{"question": "name: marichu addr: 342 e. 46th st.  between 1st and 2nd aves. phone: 212/370-1866 type: french city?", "answer": "The city is New York, NY."}
+{"question": "name: matthew's addr: 1030 3rd ave. at 61st st. phone: 212/838-4343 type: american city?", "answer": "New York City"}
+{"question": "name: milan cafe and coffee bar addr: 120 w. 23rd st. phone: 212/807-1801 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: monkey bar addr: 60 e. 54th st. phone: 212/838-2600 type: american city?", "answer": "New York City"}
+{"question": "name: morton's addr: 551 5th ave. at 45th st. phone: 212/972-3315 type: american city?", "answer": "new york"}
+{"question": "name: motown cafe addr: 104 w. 57th st.  near 6th ave. phone: 212/581-8030 type: american city?", "answer": "The Motown Cafe is located in New York City."}
+{"question": "name: new york noodletown addr: 28 1/2 bowery at bayard st. phone: 212/349-0923 type: asian city?", "answer": "New York City"}
+{"question": "name: newsbar addr: 2 w. 19th st. phone: 212/255-3996 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: odeon addr: 145 w. broadway at thomas st. phone: 212/233-0507 type: american city?", "answer": "New York City"}
+{"question": "name: orso addr: 322 w. 46th st. phone: 212/489-7212 type: italian city?", "answer": "New York City"}
+{"question": "name: otabe addr: 68 e. 56th st. phone: 212/223-7575 type: asian city?", "answer": "New York City"}
+{"question": "name: pacifica addr: 138 lafayette st.  between canal and howard sts. phone: 212/941-4168 type: asian city?", "answer": "The city is New York, NY."}
+{"question": "name: palio addr: 151 w. 51st. st. phone: 212/245-4850 type: italian city?", "answer": "new york"}
+{"question": "name: pamir addr: 1065 1st ave.  at 58th st. phone: 212/644-9258 type: middle eastern city?", "answer": "New York City"}
+{"question": "name: parioli romanissimo addr: 24 e. 81st st. phone: 212/288-2391 type: italian city?", "answer": "new york"}
+{"question": "name: patria addr: 250 park ave. s at 20th st. phone: 212/777-6211 type: latin american city?", "answer": "New York City"}
+{"question": "name: pen & pencil addr: 205 e. 45th st. phone: 212/682-8660 type: american city?", "answer": "New York City"}
+{"question": "name: penang soho addr: 109 spring st.  between greene and mercer sts. phone: 212/274-8883 type: asian city?", "answer": "Penang Soho is located in New York City."}
+{"question": "name: persepolis addr: 1423 2nd ave.  between 74th and 75th sts. phone: 212/535-1100 type: middle eastern city?", "answer": "New York City"}
+{"question": "name: planet hollywood addr: 140 w. 57th st. phone: 212/333-7827 type: american city?", "answer": "New York City"}
+{"question": "name: pomaire addr: 371 w. 46th st.  off 9th ave. phone: 212/ 956-3055 type: latin american city?", "answer": "New York City"}
+{"question": "name: post house addr: 28 e. 63rd st. phone: 212/935-2888 type: american city?", "answer": "New York City"}
+{"question": "name: rain addr: 100 w. 82nd st. phone: 212/501-0776 type: asian city?", "answer": "New York City"}
+{"question": "name: red tulip addr: 439 e. 75th st. phone: 212/734-4893 type: eastern european city?", "answer": "New York"}
+{"question": "name: rosa mexicano addr: 1063 1st ave. at 58th st. phone: 212/753-7407 type: mexican city?", "answer": "New York City"}
+{"question": "name: ruth's chris addr: 148 w. 51st st. phone: 212/245-9600 type: american city?", "answer": "New York City"}
+{"question": "name: s.p.q.r addr: 133 mulberry st.  between hester and grand sts. phone: 212/925-3120 type: italian city?", "answer": "The city associated with the address is New York, NY."}
+{"question": "name: sal anthony's addr: 55 irving pl. phone: 212/982-9030 type: italian city?", "answer": "new york"}
+{"question": "name: sammy's roumanian steak house addr: 157 chrystie st. at delancey st. phone: 212/673-0330 type: east european city?", "answer": "new york\n\nYes, Sammy's Roumanian Steak House is located in New York City."}
+{"question": "name: san pietro addr: 18 e. 54th st. phone: 212/753-9015 type: italian city?", "answer": "new york"}
+{"question": "name: sant ambroeus addr: 1000 madison ave.  between 77th and 78th sts. phone: 212/570-2211 type: coffee bar city?", "answer": "New York, NY"}
+{"question": "name: sarabeth's kitchen addr: 423 amsterdam ave.  between 80th and 81st sts. phone: 212/496-6280 type: american city?", "answer": "new york city"}
+{"question": "name: serendipity addr: 3 225 e. 60th st. phone: 212/838-3531 type: american city?", "answer": "new york"}
+{"question": "name: seventh regiment mess and bar addr: 643 park ave. at 66th st. phone: 212/744-4107 type: american city?", "answer": "new york"}
+{"question": "name: sfuzzi addr: 58 w. 65th st. phone: 212/873-3700 type: american city?", "answer": "New York City"}
+{"question": "name: sofia fabulous pizza addr: 1022 madison ave.  near 79th st. phone: 212/734-2676 type: italian city?", "answer": "The city is New York, NY."}
+{"question": "name: spring street natural restaurant & bar addr: 62 spring st. at lafayette st. phone: 212/966-0290 type: american city?", "answer": "New York City"}
+{"question": "name: stingray addr: 428 amsterdam ave.  between 80th and 81st sts. phone: 212/501-7515 type: seafood city?", "answer": "New York City"}
+{"question": "name: sweet'n'tart cafe addr: 76 mott st. at canal st. phone: 212/334-8088 type: asian city?", "answer": "New York City"}
+{"question": "name: tang pavillion addr: 65 w. 55th st. phone: 212/956-6888 type: asian city?", "answer": "New York City"}
+{"question": "name: teresa's addr: 103 1st ave.  between 6th and 7th sts. phone: 212/228-0604 type: east european city?", "answer": "New York City"}
+{"question": "name: terrace addr: 400 w. 119th st.  between amsterdam and morningside aves. phone: 212/666-9490 type: continental city?", "answer": "The city is New York, NY."}
+{"question": "name: the coffee pot addr: 350 9th ave. at 49th st. phone: 212/265-3566 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: the savannah club addr: 2420 broadway at 89th st. phone: 212/496-1066 type: american city?", "answer": "New York City"}
+{"question": "name: trattoria dell'arte addr: 900 7th ave.  between 56th and 57th sts. phone: 212/245-9800 type: italian city?", "answer": "The city is New York, NY."}
+{"question": "name: triangolo addr: 345 e. 83rd st. phone: 212/472-4488 type: italian city?", "answer": "New York City"}
+{"question": "name: tribeca grill addr: 375 greenwich st.  near franklin st. phone: 212/941-3900 type: american city?", "answer": "The Tribeca Grill is located in New York City."}
+{"question": "name: trois jean addr: 154 e. 79th st.  between lexington and 3rd aves. phone: 212/988-4858 type: coffee bar city?", "answer": "New York, NY"}
+{"question": "name: tse yang addr: 34 e. 51st st. phone: 212/688-5447 type: asian city?", "answer": "New York City"}
+{"question": "name: turkish kitchen addr: 386 3rd ave.  between 27th and 28th sts. phone: 212/679-1810 type: middle eastern city?", "answer": "The city is New York, NY."}
+{"question": "name: veniero's pasticceria addr: 342 e. 11th st.  near 1st ave. phone: 212/674-7264 type: coffee bar city?", "answer": "New York City"}
+{"question": "name: verbena addr: 54 irving pl. at 17th st. phone: 212/260-5454 type: american city?", "answer": "new york"}
+{"question": "name: victor's cafe addr: 52 236 w. 52nd st. phone: 212/586-7714 type: latin american city?", "answer": "New York City"}
+{"question": "name: vince & eddie's addr: 70 w. 68th st. phone: 212/721-0068 type: american city?", "answer": ["Wrong"]}
+{"question": "name: water club addr: 500 e. 30th st. phone: 212/683-3333 type: american city?", "answer": "New York City"}
+{"question": "name: west addr: 63rd street steakhouse 44 w. 63rd st. phone: 212/246-6363 type: american city?", "answer": "New York City"}
+{"question": "name: xunta addr: 174 1st ave.  between 10th and 11th sts. phone: 212/614-0620 type: mediterranean city?", "answer": "New York"}
+{"question": "name: zen palate addr: 34 union sq. e at 16th st. phone: 212/614-9291 type: and 212/614-9345 asian city?", "answer": "New York City"}
+{"question": "name: abbey addr: 163 ponce de leon ave. phone: 404/876-8532 type: international city?", "answer": "Atlanta"}
+{"question": "name: anthonys addr: 3109 piedmont rd.  just south of peachtree rd. phone: 404/262-7379 type: american city?", "answer": "Atlanta"}
+{"question": "name: atlanta fish market addr: 265 pharr rd. phone: 404/262-3165 type: american city?", "answer": "Atlanta, Georgia"}
+{"question": "name: beesley's of buckhead addr: 260 e. paces ferry road phone: 404/264-1334 type: continental city?", "answer": "atlanta\n\nYes, Beesley's of Buckhead is located in Atlanta, Georgia."}
+{"question": "name: bistango addr: 1100 peachtree st. phone: 404/724-0901 type: mediterranean city?", "answer": "Atlanta\n\nYes, Bistango is located in Atlanta, Georgia."}
+{"question": "name: cafe renaissance addr: 7050 jimmy carter blvd.  norcross phone: 770/441--0291 type: american city?", "answer": "Norcross, Georgia"}
+{"question": "name: cassis addr: 3300 peachtree rd.  grand hyatt phone: 404/365-8100 type: mediterranean city?", "answer": "Atlanta, GA"}
+{"question": "name: city grill addr: 50 hurt plaza phone: 404/524-2489 type: international city?", "answer": "Atlanta\n\nYes, the City Grill is located in Atlanta, Georgia."}
+{"question": "name: coco loco addr: 40  buckhead crossing mall on the sidney marcus blvd. phone: 404/364-0212 type: caribbean city?", "answer": "Atlanta, Georgia"}
+{"question": "name: colonnade restaurant addr: 1879 cheshire bridge rd. phone: 404/874-5642 type: southern city?", "answer": "atlanta\n\nYes, the Colonnade Restaurant is located in Atlanta, Georgia."}
+{"question": "name: dante's down the hatch  buckhead addr: 3380 peachtree rd. phone: 404/266-1600 type: continental city?", "answer": "Atlanta, Georgia"}
+{"question": "name: dante's down the hatch addr: underground underground mall  underground atlanta phone: 404/577-1800 type: continental city?", "answer": "Atlanta"}
+{"question": "name: fat matt's rib shack addr: 1811 piedmont ave.  near cheshire bridge rd. phone: 404/607-1622 type: barbecue city?", "answer": "Atlanta"}
+{"question": "name: french quarter food shop addr: 923 peachtree st.  at 8th st. phone: 404/875-2489 type: southern city?", "answer": "Atlanta\n\nYes, the French Quarter Food Shop is located in Atlanta, Georgia."}
+{"question": "name: holt bros. bar-b-q addr: 6359 jimmy carter blvd.  at buford hwy.  norcross phone: 770/242-3984 type: barbecue city?", "answer": "Norcross, GA"}
+{"question": "name: horseradish grill addr: 4320 powers ferry rd. phone: 404/255-7277 type: southern city?", "answer": "atlanta\n\nYes, the restaurant Horseradish Grill is located in Atlanta, Georgia."}
+{"question": "name: hsu's gourmet addr: 192 peachtree center ave.  at international blvd. phone: 404/659-2788 type: asian city?", "answer": "Atlanta, GA"}
+{"question": "name: la grotta at ravinia dunwoody rd. addr: holiday inn/crowne plaza at ravinia  dunwoody phone: 770/395-9925 type: italian city?", "answer": "Dunwoody, Georgia"}
+{"question": "name: little szechuan addr: c buford hwy.  northwoods plaza  doraville phone: 770/451-0192 type: asian city?", "answer": "Doraville, GA"}
+{"question": "name: luna si addr: 1931 peachtree rd. phone: 404/355-5993 type: continental city?", "answer": "Atlanta, GA"}
+{"question": "name: mckinnon's louisiane addr: 3209 maple dr. phone: 404/237-1313 type: southern city?", "answer": "McKinnon's Louisiana is located in Atlanta, Georgia."}
+{"question": "name: mi spia dunwoody rd. addr: park place  across from perimeter mall  dunwoody phone: 770/393-1333 type: italian city?", "answer": "Dunwoody, Georgia"}
+{"question": "name: nickiemoto's: a sushi bar addr: 247 buckhead ave.  east village sq. phone: 404/842-0334 type: fusion city?", "answer": "Atlanta"}
+{"question": "name: pleasant peasant addr: 555 peachtree st.  at linden ave. phone: 404/874-3223 type: american city?", "answer": "Atlanta, GA"}
+{"question": "name: pricci addr: 500 pharr rd. phone: 404/237-2941 type: italian city?", "answer": "Atlanta\n\nYes, the restaurant Pricci is located in Atlanta, Georgia."}
+{"question": "name: rib ranch addr: 25 irby ave. phone: 404/233-7644 type: barbecue city?", "answer": "Atlanta"}
+{"question": "name: sa tsu ki addr: 3043 buford hwy. phone: 404/325-5285 type: asian city?", "answer": "Atlanta"}
+{"question": "name: sato sushi and thai addr: 6050 peachtree pkwy.  norcross phone: 770/449-0033 type: asian city?", "answer": "Norcross, GA"}
+{"question": "name: stringer's fish camp and oyster bar addr: 3384 shallowford rd.  chamblee phone: 770/458-7145 type: southern city?", "answer": "Chamblee, Georgia"}
+{"question": "name: taste of new orleans addr: 889 w. peachtree st. phone: 404/874-5535 type: southern city?", "answer": "atlanta\n\nYes, the restaurant \"Taste of New Orleans\" is located in Atlanta, Georgia."}
+{"question": "name: antonio's addr: 3700 w. flamingo phone: 702/252-7737 type: italian city?", "answer": "Las Vegas"}
+{"question": "name: bally's big kitchen addr: 3645 las vegas blvd. s phone: 702/739-4111 type: buffets city?", "answer": "Las Vegas, NV"}
+{"question": "name: bamboo garden addr: 4850 flamingo rd. phone: 702/871-3262 type: asian city?", "answer": "Las Vegas"}
+{"question": "name: bertolini's addr: 3570 las vegas blvd. s phone: 702/735-4663 type: italian city?", "answer": "Las Vegas"}
+{"question": "name: binion's coffee shop addr: 128 fremont st. phone: 702/382-1600 type: coffee shops/diners city?", "answer": "Las Vegas"}
+{"question": "name: bistro addr: 3400 las vegas blvd. s phone: 702/791-7111 type: continental city?", "answer": "Las Vegas"}
+{"question": "name: broiler addr: 4111 boulder hwy. phone: 702/432-7777 type: american city?", "answer": "Las Vegas"}
+{"question": "name: bugsy's diner addr: 3555 las vegas blvd. s phone: 702/733-3111 type: coffee shops/diners city?", "answer": "Las Vegas"}
+{"question": "name: cafe roma addr: 3570 las vegas blvd. s phone: 702/731-7547 type: coffee shops/diners city?", "answer": "Las Vegas"}
+{"question": "name: capozzoli's addr: 3333 s. maryland pkwy. phone: 702/731-5311 type: italian city?", "answer": "las vegas"}
+{"question": "name: carnival world addr: 3700 w. flamingo rd. phone: 702/252-7777 type: buffets city?", "answer": "Las Vegas"}
+{"question": "name: center stage plaza hotel addr: 1 main st. phone: 702/386-2512 type: american city?", "answer": "Las Vegas, Nevada"}
+{"question": "name: circus circus addr: 2880 las vegas blvd. s phone: 702/734-0410 type: buffets city?", "answer": "Las Vegas"}
+{"question": "name: empress court addr: 3570 las vegas blvd. s phone: 702/731-7888 type: asian city?", "answer": "Las Vegas"}
+{"question": "name: feast addr: 2411 w. sahara ave. phone: 702/367-2411 type: buffets city?", "answer": "Las Vegas"}
+{"question": "name: lillie langtry's addr: 129 e. fremont st. phone: 702/385-7111 type: asian city?", "answer": "Las Vegas"}
+{"question": "name: mandarin court addr: 1510 e. flamingo rd. phone: 702/737-1234 type: asian city?", "answer": "Las Vegas, NV"}
+{"question": "name: margarita's mexican cantina addr: 3120 las vegas blvd. s phone: 702/794-8200 type: mexican city?", "answer": "Las Vegas, NV"}
+{"question": "name: mary's diner addr: 5111 w. boulder hwy. phone: 702/454-8073 type: coffee shops/diners city?", "answer": "Las Vegas, NV"}
+{"question": "name: mikado addr: 3400 las vegas blvd. s phone: 702/791-7111 type: asian city?", "answer": "Las Vegas"}
+{"question": "name: pamplemousse addr: 400 e. sahara ave. phone: 702/733-2066 type: continental city?", "answer": "las vegas"}
+{"question": "name: ralph's diner addr: 3000 las vegas blvd. s phone: 702/732-6330 type: coffee shops/diners city?", "answer": "Las Vegas"}
+{"question": "name: the bacchanal addr: 3570 las vegas blvd. s phone: 702/731-7525 type: only in las vegas city?", "answer": "Yes, the Bacchanal is located in Las Vegas, Nevada."}
+{"question": "name: venetian addr: 3713 w. sahara ave. phone: 702/876-4190 type: italian city?", "answer": "Las Vegas"}
+{"question": "name: betelnut addr: 2030 union st. phone: 415/929-8855 type: asian city?", "answer": "San Francisco"}
+{"question": "name: bistro roti addr: 155 steuart st. phone: 415/495-6500 type: french city?", "answer": "san francisco"}
+{"question": "name: bix addr: 56 gold st. phone: 415/433-6300 type: american city?", "answer": "san francisco"}
+{"question": "name: buca giovanni addr: 800 greenwich st. phone: 415/776-7766 type: italian city?", "answer": "San Francisco"}
+{"question": "name: cafe marimba addr: 2317 chestnut st. phone: 415/776-1506 type: mexican/latin american/spanish city?", "answer": "San Francisco"}
+{"question": "name: california culinary academy addr: 625 polk st. phone: 415/771-3500 type: french city?", "answer": "san francisco"}
+{"question": "name: capp's corner addr: 1600 powell st. phone: 415/989-2589 type: italian city?", "answer": "san francisco"}
+{"question": "name: carta addr: 1772 market st. phone: 415/863-3516 type: american city?", "answer": "San Francisco"}
+{"question": "name: chevys addr: 4th and howard sts. phone: 415/543-8060 type: mexican/latin american/spanish city?", "answer": "San Francisco"}
+{"question": "name: des alpes addr: 732 broadway phone: 415/788-9900 type: french city?", "answer": "San Francisco"}
+{"question": "name: fog city diner addr: 1300 battery st. phone: 415/982-2000 type: american city?", "answer": "san francisco"}
+{"question": "name: garden court addr: market and new montgomery sts. phone: 415/546-5011 type: old san francisco city?", "answer": "Yes, Garden Court is located in San Francisco, California."}
+{"question": "name: gaylord's addr: ghirardelli sq. phone: 415/771-8822 type: asian city?", "answer": "San Francisco"}
+{"question": "name: greens addr: bldg. a fort mason phone: 415/771-6222 type: vegetarian city?", "answer": "san francisco"}
+{"question": "name: harbor village addr: 4 embarcadero center phone: 415/781-8833 type: asian city?", "answer": "san francisco"}
+{"question": "name: harris' addr: 2100 van ness ave. phone: 415/673-1888 type: steak houses city?", "answer": "San Francisco"}
+{"question": "name: harry denton's addr: 161 steuart st. phone: 415/882-1333 type: american city?", "answer": "san francisco"}
+{"question": "name: hayes street grill addr: 320 hayes st. phone: 415/863-5545 type: seafood city?", "answer": "san francisco"}
+{"question": "name: hong kong flower lounge addr: 5322 geary blvd. phone: 415/668-8998 type: asian city?", "answer": "Hong Kong Flower Lounge is located in San Francisco, California."}
+{"question": "name: hyde street bistro addr: 1521 hyde st. phone: 415/441-7778 type: italian city?", "answer": "San Francisco"}
+{"question": "name: il fornaio levi's plaza addr: 1265 battery st. phone: 415/986-0100 type: italian city?", "answer": "san francisco"}
+{"question": "name: izzy's steak & chop house addr: 3345 steiner st. phone: 415/563-0487 type: steak houses city?", "answer": "san francisco"}
+{"question": "name: jack's addr: 615 sacramento st. phone: 415/986-9854 type: old san francisco city?", "answer": "Yes, 615 Sacramento Street is located in Old San Francisco."}
+{"question": "name: katia's addr: 600 5th ave. phone: 415/668-9292 type: nan city?", "answer": "Katia's city is not provided in the information given."}
+{"question": "name: kuleto's addr: 221 powell st. phone: 415/397-7720 type: italian city?", "answer": "San Francisco"}
+{"question": "name: le central addr: 453 bush st. phone: 415/391-2233 type: french city?", "answer": "San Francisco"}
+{"question": "name: le soleil addr: 133 clement st. phone: 415/668-4848 type: asian city?", "answer": "San Francisco"}
+{"question": "name: macarthur park addr: 607 front st. phone: 415/398-5700 type: american city?", "answer": "San Francisco"}
+{"question": "name: manora addr: 3226 mission st. phone: 415/861-6224 type: asian city?", "answer": "San Francisco"}
+{"question": "name: maykadeh addr: 470 green st. phone: 415/362-8286 type: greek and middle eastern city?", "answer": "San Francisco"}
+{"question": "name: mccormick & kuleto's addr: ghirardelli sq. phone: 415/929-1730 type: seafood city?", "answer": "San Francisco"}
+{"question": "name: moose's addr: 1652 stockton st. phone: 415/989-7800 type: mediterranean city?", "answer": "San Francisco"}
+{"question": "name: north india addr: 3131 webster st. phone: 415/931-1556 type: asian city?", "answer": "The city associated with this address is San Francisco, California."}
+{"question": "name: one market addr: 1 market st. phone: 415/777-5577 type: american city?", "answer": "san francisco"}
+{"question": "name: oritalia addr: 1915 fillmore st. phone: 415/346-1333 type: italian city?", "answer": "San Francisco"}
+{"question": "name: palio d'asti addr: 640 sacramento st. phone: 415/395-9800 type: italian city?", "answer": "San Francisco"}
+{"question": "name: pane e vino addr: 3011 steiner st. phone: 415/346-2111 type: italian city?", "answer": "san francisco"}
+{"question": "name: pastis addr: 1015 battery st. phone: 415/391-2555 type: french city?", "answer": "San Francisco"}
+{"question": "name: perry's addr: 1944 union st. phone: 415/922-9022 type: american city?", "answer": "san francisco"}
+{"question": "name: r&g lounge addr: 631 b kearny st. phone: 415/982-7877 type: or 415/982-3811 asian city?", "answer": "San Francisco, California"}
+{"question": "name: rubicon addr: 558 sacramento st. phone: 415/434-4100 type: american city?", "answer": "san francisco"}
+{"question": "name: rumpus addr: 1 tillman pl. phone: 415/421-2300 type: american city?", "answer": "San Francisco\n\nYes, the address 1 Tillman Pl. is located in San Francisco, California."}
+{"question": "name: sanppo addr: 1702 post st. phone: 415/346-3486 type: asian city?", "answer": "San Francisco"}
+{"question": "name: scala's bistro addr: 432 powell st. phone: 415/395-8555 type: italian city?", "answer": "san francisco"}
+{"question": "name: south park cafe addr: 108 south park phone: 415/495-7275 type: french city?", "answer": "San Francisco\n\nYes, South Park Cafe is located in San Francisco, California."}
+{"question": "name: stars addr: 150 redwood alley phone: 415/861-7827 type: american city?", "answer": "San Francisco\n\nYes, the address provided is located in San Francisco, California."}
+{"question": "name: stars cafe addr: 500 van ness ave. phone: 415/861-4344 type: american city?", "answer": "San Francisco"}
+{"question": "name: stoyanof's cafe addr: 1240 9th ave. phone: 415/664-3664 type: greek and middle eastern city?", "answer": "san francisco"}
+{"question": "name: straits cafe addr: 3300 geary blvd. phone: 415/668-1783 type: asian city?", "answer": "San Francisco"}
+{"question": "name: suppenkuche addr: 601 hayes st. phone: 415/252-9289 type: russian/german city?", "answer": "san francisco"}
+{"question": "name: the heights addr: 3235 sacramento st. phone: 415/474-8890 type: french city?", "answer": "San Francisco"}
+{"question": "name: ton kiang addr: 3148 geary blvd. phone: 415/752-4440 type: asian city?", "answer": "san francisco"}
+{"question": "name: vivande ristorante addr: 670 golden gate ave. phone: 415/673-9245 type: italian city?", "answer": "San Francisco"}
+{"question": "name: yank sing addr: 427 battery st. phone: 415/541-4949 type: asian city?", "answer": "san francisco"}
+{"question": "name: yoyo tsumami bistro addr: 1611 post st. phone: 415/922-7788 type: french city?", "answer": "san francisco"}
+{"question": "name: zarzuela addr: 2000 hyde st. phone: 415/346-0800 type: mexican/latin american/spanish city?", "answer": "San Francisco"}
+{"question": "name: belvedere  the addr: 9882 little santa monica blvd. phone: 310-788-2306 type: pacific new wave city?", "answer": "Beverly Hills, CA"}
+{"question": "name: benita's frites addr: 1433 third st. promenade phone: 310-458-2889 type: fast food city?", "answer": "santa monica"}
+{"question": "name: bistro 45 addr: 45 s. mentor ave. phone: 818-795-2478 type: californian city?", "answer": "The city for Bistro 45 is Los Angeles, California."}
+{"question": "name: brighton coffee shop addr: 9600 brighton way phone: 310-276-7732 type: coffee shops city?", "answer": "Brighton, CA"}
+{"question": "name: bristol farms market cafe addr: 1570 rosecrans ave. s. phone: 310-643-5229 type: californian city?", "answer": "The city for the Bristol Farms Market Cafe is Manhattan Beach, California."}
+{"question": "name: bruno's addr: 3838 centinela ave. phone: 310-397-5703 type: italian city?", "answer": "marina del rey"}
+{"question": "name: cafe '50s addr: 838 lincoln blvd. phone: 310-399-1955 type: american city?", "answer": "santa monica"}
+{"question": "name: cafe blanc addr: 9777 little santa monica blvd. phone: 310-888-0108 type: pacific new wave city?", "answer": "beverly hills\n\nYes, Cafe Blanc is located in Beverly Hills, California."}
+{"question": "name: cassell's addr: 3266 w. sixth st. phone: 213-480-8668 type: hamburgers city?", "answer": "los angeles"}
+{"question": "name: diaghilev addr: 1020 n. san vicente blvd. phone: 310-854-1111 type: russian city?", "answer": "los angeles"}
+{"question": "name: duke's addr: 8909 sunset blvd. phone: 310-652-3100 type: coffee shops city?", "answer": "Los Angeles"}
+{"question": "name: falafel king addr: 1059 broxton ave. phone: 310-208-4444 type: middle eastern city?", "answer": "los angeles"}
+{"question": "name: gumbo pot  the addr: 6333 w. third st. phone: 213-933-0358 type: cajun/creole city?", "answer": "Los Angeles, CA"}
+{"question": "name: hollywood hills coffee shop addr: 6145 franklin ave. phone: 213-467-7678 type: coffee shops city?", "answer": "los angeles"}
+{"question": "name: indo cafe addr: 10428 1/2 national blvd. phone: 310-815-1290 type: indonesian city?", "answer": "Los Angeles"}
+{"question": "name: jan's family restaurant addr: 8424 beverly blvd. phone: 213-651-2866 type: coffee shops city?", "answer": "los angeles"}
+{"question": "name: jiraffe addr: 502 santa monica blvd phone: 310-917-6671 type: californian city?", "answer": "The city associated with the address 502 Santa Monica Blvd is Santa Monica, California."}
+{"question": "name: jody maroni's sausage kingdom addr: 2011 ocean front walk phone: 310-306-1995 type: hot dogs city?", "answer": "venice\n\nJody Maroni's Sausage Kingdom is located in Venice, California. The address is 2011 Ocean Front Walk and the phone number is 310-306-1995. They specialize in hot dogs."}
+{"question": "name: joe's addr: 1023 abbot kinney blvd. phone: 310-399-5811 type: american (new) city?", "answer": "venice"}
+{"question": "name: john o'groats addr: 10516 w. pico blvd. phone: 310-204-0692 type: coffee shops city?", "answer": "Los Angeles, CA"}
+{"question": "name: johnny reb's southern smokehouse addr: 4663 long beach blvd. phone: 310-423-7327 type: southern/soul city?", "answer": "long beach\n\nYes, Johnny Reb's Southern Smokehouse is located in Long Beach, California."}
+{"question": "name: kokomo cafe addr: 6333 w. third st. phone: 213-933-0773 type: american city?", "answer": "Los Angeles, CA"}
+{"question": "name: koo koo roo addr: 8393 w. beverly blvd. phone: 213-655-9045 type: chicken city?", "answer": "los angeles"}
+{"question": "name: la salsa (la) addr: 22800 pch phone: 310-456-6299 type: mexican city?", "answer": "The city is Manhattan Beach, California."}
+{"question": "name: la serenata de garibaldi addr: 1842 e. first phone: 213-265-2887 type: mexican/tex-mex city?", "answer": "los angeles\n\nCity: Los Angeles"}
+{"question": "name: local nochol addr: 30869 thousand oaks blvd. phone: 818-706-7706 type: health food city?", "answer": "Thousand Oaks"}
+{"question": "name: main course  the addr: 10509 w. pico blvd. phone: 310-475-7564 type: american city?", "answer": "The city is Los Angeles, California."}
+{"question": "name: martha's addr: 22nd street grill 25 22nd phone: 310-376-7786 type: american city?", "answer": "los angeles"}
+{"question": "name: maxwell's cafe addr: 13329 washington blvd. phone: 310-306-7829 type: american city?", "answer": "Marina del Rey, California"}
+{"question": "name: michael's (los angeles) addr: 1147 third st. phone: 310-451-0843 type: californian city?", "answer": "Los Angeles"}
+{"question": "name: mo better meatty meat addr: 7261 melrose ave. phone: 213-935-5280 type: hamburgers city?", "answer": "los angeles"}
+{"question": "name: mulberry st. addr: 17040 ventura blvd. phone: 818-906-8881 type: pizza city?", "answer": "The city associated with the address is Sherman Oaks, California."}
+{"question": "name: ocean park cafe addr: 3117 ocean park blvd. phone: 310-452-5728 type: american city?", "answer": "The city for this address is Santa Monica, California."}
+{"question": "name: original pantry bakery addr: 875 s. figueroa st. downtown phone: 213-627-6879 type: diners city?", "answer": "Los Angeles"}
+{"question": "name: pho hoa addr: 642 broadway phone: 213-626-5530 type: vietnamese city?", "answer": "Los Angeles"}
+{"question": "name: pink's famous chili dogs addr: 709 n. la brea ave. phone: 213-931-4223 type: hot dogs city?", "answer": "los angeles\n\nCity: Los Angeles"}
+{"question": "name: r-23 addr: 923 e. third st. phone: 213-687-7178 type: japanese city?", "answer": ["Wrong"]}
+{"question": "name: rae's addr: 2901 pico blvd. phone: 310-828-7937 type: diners city?", "answer": "Santa Monica"}
+{"question": "name: rubin's red hots addr: 15322 ventura blvd. phone: 818-905-6515 type: hot dogs city?", "answer": "Sherman Oaks, CA"}
+{"question": "name: russell's burgers addr: 1198 pch phone: 310-596-9556 type: hamburgers city?", "answer": "The city for Russell's Burgers is Manhattan Beach, California."}
+{"question": "name: shiro addr: 1505 mission st. s. phone: 818-799-4774 type: pacific new wave city?", "answer": "san francisco"}
+{"question": "name: sushi nozawa addr: 11288 ventura blvd. phone: 818-508-7017 type: japanese city?", "answer": "studio city\n\nStudio City"}
+{"question": "name: sweet lady jane addr: 8360 melrose ave. phone: 213-653-7145 type: desserts city?", "answer": "Los Angeles"}
+{"question": "name: taiko addr: 11677 san vicente blvd. phone: 310-207-7782 type: noodle shops city?", "answer": "Los Angeles"}
+{"question": "name: tommy's addr: 2575 beverly blvd. phone: 213-389-9060 type: hamburgers city?", "answer": "Los Angeles"}
+{"question": "name: uncle bill's pancake house addr: 1305 highland ave. phone: 310-545-5177 type: diners city?", "answer": "The city is Los Angeles, California."}
+{"question": "name: water grill addr: 544 s. grand ave. phone: 213-891-0900 type: seafood city?", "answer": "los angeles"}
+{"question": "name: zankou chicken addr: 1415 e. colorado st. phone: 818-244-1937 type: middle eastern city?", "answer": "Pasadena, CA"}
+{"question": "name: afghan kebab house addr: 764 ninth ave. phone: 212-307-1612 type: afghan city?", "answer": "new york\n\nYes, Afghan Kebab House is located in New York City."}
+{"question": "name: benny's burritos addr: 93 ave. a phone: 212-254-2054 type: mexican city?", "answer": "new york"}
+{"question": "name: cucina della fontana addr: 368 bleecker st. phone: 212-242-0636 type: italian city?", "answer": "new york\n\nYes, the restaurant Cucina della Fontana is located in New York City."}
+{"question": "name: cucina di pesce addr: 87 e. fourth st. phone: 212-260-6800 type: seafood city?", "answer": "new york\n\nYes, the restaurant is located in New York City."}
+{"question": "name: elias corner addr: 24-02 31st st. phone: 718-932-1510 type: greek city?", "answer": "astoria\n\nYes, Elias Corner is located in Astoria, Queens."}
+{"question": "name: good enough to eat addr: 483 amsterdam ave. phone: 212-496-0163 type: american city?", "answer": "new york"}
+{"question": "name: il mulino addr: 86 w. third st. phone: 212-673-3783 type: italian city?", "answer": "new york"}
+{"question": "name: jackson diner addr: 37-03 74th st. phone: 718-672-1232 type: indian city?", "answer": "Jackson Diner is located in Jackson Heights, Queens, New York."}
+{"question": "name: joe's shanghai addr: 9 pell st. phone: 718-539-3838 type: chinese city?", "answer": "New York City"}
+{"question": "name: kiev addr: 117 second ave. phone: 212-674-4040 type: ukrainian city?", "answer": "Yes, Kiev is a city in Ukraine."}
+{"question": "name: kuruma zushi addr: 2nd fl. phone: 212-317-2802 type: japanese city?", "answer": "New York City"}
+{"question": "name: la caridad addr: 2199 broadway phone: 212-874-2780 type: cuban city?", "answer": "New York City"}
+{"question": "name: la grenouille addr: 3 e. 52nd st. phone: 212-752-1495 type: french (classic) city?", "answer": "New York City"}
+{"question": "name: lemongrass grill addr: 61a seventh ave. phone: 718-399-7100 type: thai city?", "answer": "The city is Brooklyn, New York."}
+{"question": "name: lombardi's addr: 32 spring st. phone: 212-941-7994 type: pizza city?", "answer": "New York City"}
+{"question": "name: marnie's noodle shop addr: 466 hudson st. phone: 212-741-3214 type: asian city?", "answer": "New York City"}
+{"question": "name: menchanko-tei addr: 39 w. 55th st. phone: 212-247-1585 type: japanese city?", "answer": "new york"}
+{"question": "name: mitali east-west addr: 296 bleecker st. phone: 212-989-1367 type: indian city?", "answer": "New York City"}
+{"question": "name: monsoon (ny) addr: 435 amsterdam ave. phone: 212-580-8686 type: thai city?", "answer": "New York City"}
+{"question": "name: nobu addr: 105 hudson st. phone: 212-219-0500 type: japanese city?", "answer": "New York City"}
+{"question": "name: oyster bar addr: lower level phone: 212-490-6650 type: seafood city?", "answer": "new york\n\nYes, the Oyster Bar is located in New York City."}
+{"question": "name: palm too addr: 840 second ave. phone: 212-697-5198 type: steakhouses city?", "answer": "New York"}
+{"question": "name: peter luger steak house addr: 178 broadway phone: 718-387-7400 type: steakhouses city?", "answer": "Brooklyn"}
+{"question": "name: sam's noodle shop addr: 411 third ave. phone: 212-213-2288 type: chinese city?", "answer": "new york city"}
+{"question": "name: sarabeth's addr: 1295 madison ave. phone: 212-410-7335 type: american city?", "answer": "new york"}
+{"question": "name: stick to your ribs addr: 5-16 51st ave. phone: 718-937-3030 type: bbq city?", "answer": "Long Island City\n\nLong Island City, NY"}
+{"question": "name: sushisay addr: 38 e. 51st st. phone: 212-755-1780 type: japanese city?", "answer": "New York City"}
+{"question": "name: sylvia's addr: 328 lenox ave. phone: 212-996-0660 type: southern/soul city?", "answer": "New York City"}
+{"question": "name: szechuan hunan cottage addr: 1588 york ave. phone: 212-535-5223 type: chinese city?", "answer": "New York City"}
+{"question": "name: szechuan kitchen addr: 1460 first ave. phone: 212-249-4615 type: chinese city?", "answer": "New York City"}
+{"question": "name: thai house cafe addr: 151 hudson st. phone: 212-334-1085 type: thai city?", "answer": "New York City"}
+{"question": "name: veselka addr: 144 second ave. phone: 212-228-9682 type: ukrainian city?", "answer": "new york"}
+{"question": "name: westside cottage addr: 689 ninth ave. phone: 212-245-0800 type: chinese city?", "answer": "New York City"}
+{"question": "name: windows on the world addr: 107th fl. phone: 212-524-7000 type: eclectic city?", "answer": "New York\n\nCity: New York"}
+{"question": "name: wollensky's grill addr: 205 e. 49th st. phone: 212-753-0444 type: steakhouses city?", "answer": "New York City"}
+{"question": "name: yama addr: 122 e. 17th st. phone: 212-475-0969 type: japanese city?", "answer": "new york"}
+{"question": "name: zarela addr: 953 second ave. phone: 212-644-6740 type: mexican city?", "answer": "new york"}
+{"question": "name: andre's french restaurant addr: 401 s. 6th st. phone: 702-385-5016 type: french (classic) city?", "answer": "las vegas"}
+{"question": "name: buccaneer bay club addr: 3300 las vegas blvd. s. phone: 702-894-7350 type: continental city?", "answer": "Las Vegas, Nevada"}
+{"question": "name: buzio's in the rio addr: 3700 w. flamingo rd. phone: 702-252-7697 type: seafood city?", "answer": "Las Vegas"}
+{"question": "name: emeril's new orleans fish house addr: 3799 las vegas blvd. s. phone: 702-891-7374 type: seafood city?", "answer": "Las Vegas, NV"}
+{"question": "name: hugo's cellar addr: 202 e. fremont st. phone: 702-385-4011 type: continental city?", "answer": "las vegas"}
+{"question": "name: madame ching's addr: 3300 las vegas blvd. s. phone: 702-894-7111 type: asian city?", "answer": "Las Vegas, NV"}
+{"question": "name: mayflower cuisinier addr: 4750 w. sahara ave. phone: 702-870-8432 type: chinese city?", "answer": "las vegas"}
+{"question": "name: michael's (las vegas) addr: 3595 las vegas blvd. s. phone: 702-737-7111 type: continental city?", "answer": "Las Vegas, Nevada"}
+{"question": "name: monte carlo addr: 3145 las vegas blvd. s. phone: 702-733-4524 type: french (new) city?", "answer": "Las Vegas"}
+{"question": "name: nicky blair's addr: 3925 paradise rd. phone: 702-792-9900 type: italian city?", "answer": "las vegas"}
+{"question": "name: piero's restaurant addr: 355 convention center dr. phone: 702-369-2305 type: italian city?", "answer": "las vegas"}
+{"question": "name: spago (las vegas) addr: 3500 las vegas blvd. s. phone: 702-369-6300 type: californian city?", "answer": "No, Spago Las Vegas is located in Las Vegas, Nevada."}
+{"question": "name: steakhouse  the addr: 128 e. fremont st. phone: 702-382-1600 type: steakhouses city?", "answer": "Las Vegas"}
+{"question": "name: stefano's addr: 129 fremont st. phone: 702-385-7111 type: italian city?", "answer": "las vegas"}
+{"question": "name: sterling brunch addr: 3645 las vegas blvd. s. phone: 702-739-4651 type: eclectic city?", "answer": "Las Vegas"}
+{"question": "name: tre visi addr: 3799 las vegas blvd. s. phone: 702-891-7331 type: italian city?", "answer": "las vegas"}
+{"question": "name: 103 west addr: 103 w. paces ferry rd. phone: 404-233-5993 type: continental city?", "answer": "Atlanta\n\nYes, 103 West is located in Atlanta, Georgia."}
+{"question": "name: alon's at the terrace addr: 659 peachtree st. phone: 404-724-0444 type: sandwiches city?", "answer": "atlanta\n\nThe city for the restaurant is Atlanta, Georgia."}
+{"question": "name: baker's cajun cafe addr: 1134 euclid ave. phone: 404-223-5039 type: cajun/creole city?", "answer": "atlanta\n\nYes, Baker's Cajun Cafe is located in Atlanta, Georgia."}
+{"question": "name: barbecue kitchen addr: 1437 virginia ave. phone: 404-766-9906 type: bbq city?", "answer": "atlanta\n\nYes, the restaurant is located in Atlanta, Georgia."}
+{"question": "name: bobby & june's kountry kitchen addr: 375 14th st. phone: 404-876-3872 type: southern/soul city?", "answer": "Atlanta\n\nYes, Bobby & June's Kountry Kitchen is located in Atlanta, Georgia."}
+{"question": "name: bradshaw's restaurant addr: 2911 s. pharr court phone: 404-261-7015 type: southern/soul city?", "answer": "atlanta\n\nYes, Bradshaw's Restaurant is located in Atlanta, Georgia."}
+{"question": "name: brookhaven cafe addr: 4274 peachtree rd. phone: 404-231-5907 type: vegetarian city?", "answer": "Atlanta, GA"}
+{"question": "name: cafe sunflower addr: 5975 roswell rd. phone: 404-256-1675 type: health food city?", "answer": "atlanta\n\nYes, Cafe Sunflower is located in Atlanta, Georgia."}
+{"question": "name: canoe addr: 4199 paces ferry rd. phone: 770-432-2663 type: american (new) city?", "answer": "Atlanta"}
+{"question": "name: carey's corner addr: 1215 powers ferry rd. phone: 770-933-0909 type: hamburgers city?", "answer": "Marietta, GA"}
+{"question": "name: chops addr: 70 w. paces ferry rd. phone: 404-262-2675 type: steakhouses city?", "answer": "Atlanta\n\nYes, Chops Steakhouse is located in Atlanta, Georgia."}
+{"question": "name: chopstix addr: 4279 roswell rd. phone: 404-255-4868 type: chinese city?", "answer": "Atlanta"}
+{"question": "name: deacon burton's soulfood restaurant addr: 1029 edgewood ave. se phone: 404-523-1929 type: southern/soul city?", "answer": "atlanta\n\nYes, Deacon Burton's Soul Food Restaurant is located in Atlanta, Georgia."}
+{"question": "name: eats addr: 600 ponce de leon ave. phone: 404-888-9149 type: italian city?", "answer": "Atlanta\n\nYes, the restaurant \"eats\" is located in Atlanta, Georgia."}
+{"question": "name: flying biscuit  the addr: 1655 mclendon ave. phone: 404-687-8888 type: eclectic city?", "answer": "Atlanta, GA"}
+{"question": "name: greenwood's addr: 1087 green st. phone: 770-992-5383 type: southern/soul city?", "answer": "atlanta\n\nGreenwood's is a Southern/Soul restaurant located in Atlanta, Georgia at 1087 Green Street. The phone number is 770-992-5383."}
+{"question": "name: harold's barbecue addr: 171 mcdonough blvd. phone: 404-627-9268 type: bbq city?", "answer": "atlanta\n\nYes, Harold's Barbecue is located in Atlanta, Georgia."}
+{"question": "name: havana sandwich shop addr: 2905 buford hwy. phone: 404-636-4094 type: cuban city?", "answer": "Atlanta, Georgia"}
+{"question": "name: indian delights addr: 3675 satellite blvd. phone: 100-813-8212 type: indian city?", "answer": "Duluth, GA"}
+{"question": "name: la fonda latina addr: 4427 roswell rd. phone: 404-303-8201 type: spanish city?", "answer": "Atlanta"}
+{"question": "name: lettuce souprise you (at) addr: 3525 mall blvd. phone: 770-418-9969 type: cafeterias city?", "answer": "The city for this address is Atlanta, Georgia."}
+{"question": "name: majestic addr: 1031 ponce de leon ave. phone: 404-875-0276 type: diners city?", "answer": "Atlanta, GA"}
+{"question": "name: my thai addr: 1248 clairmont rd. phone: 404-636-4280 type: thai city?", "answer": "Decatur, GA"}
+{"question": "name: palm  the (atlanta) addr: 3391 peachtree rd. ne phone: 404-814-1955 type: steakhouses city?", "answer": "Atlanta"}
+{"question": "name: silver skillet  the addr: 200 14th st. nw phone: 404-874-1388 type: coffee shops city?", "answer": "Atlanta, GA"}
+{"question": "name: soto addr: 3330 piedmont rd. phone: 404-233-2005 type: japanese city?", "answer": "Atlanta\n\nYes, Soto is a Japanese restaurant located in Atlanta, Georgia at 3330 Piedmont Road. The phone number is 404-233-2005."}
+{"question": "name: veggieland addr: 220 sandy springs circle phone: 404-231-3111 type: vegetarian city?", "answer": "Sandy Springs\n\nYes, the city for the restaurant is Sandy Springs."}
+{"question": "name: white house restaurant addr: 3172 peachtree rd. ne phone: 404-237-7601 type: diners city?", "answer": "Atlanta, GA"}
+{"question": "name: zab-e-lee addr: 4837 old national hwy. phone: 404-768-2705 type: thai city?", "answer": "Atlanta"}
+{"question": "name: bill's place addr: 2315 clement st. phone: 415-221-5262 type: hamburgers city?", "answer": "san francisco"}
+{"question": "name: cafe flore addr: 2298 market st. phone: 415-621-8579 type: californian city?", "answer": "San Francisco"}
+{"question": "name: caffe greco addr: 423 columbus ave. phone: 415-397-6261 type: continental city?", "answer": "san francisco"}
+{"question": "name: campo santo addr: 240 columbus ave. phone: 415-433-9623 type: mexican city?", "answer": "san francisco"}
+{"question": "name: cha cha cha's addr: 1805 haight st. phone: 415-386-5758 type: caribbean city?", "answer": "san francisco"}
+{"question": "name: doidge's addr: 2217 union st. phone: 415-921-2149 type: american city?", "answer": "San Francisco"}
+{"question": "name: dottie's true blue cafe addr: 522 jones st. phone: 415-885-2767 type: diners city?", "answer": "San Francisco"}
+{"question": "name: dusit thai addr: 3221 mission st. phone: 415-826-4639 type: thai city?", "answer": "San Francisco"}
+{"question": "name: ebisu addr: 1283 ninth ave. phone: 415-566-1770 type: japanese city?", "answer": "San Francisco"}
+{"question": "name: hamburger mary's addr: 1582 folsom st. phone: 415-626-1985 type: hamburgers city?", "answer": "San Francisco"}
+{"question": "name: kelly's on trinity addr: 333 bush st. phone: 415-362-4454 type: californian city?", "answer": "San Francisco"}
+{"question": "name: la cumbre addr: 515 valencia st. phone: 415-863-8205 type: mexican city?", "answer": "san francisco"}
+{"question": "name: la mediterranee addr: 288 noe st. phone: 415-431-7210 type: mediterranean city?", "answer": "san francisco"}
+{"question": "name: la taqueria addr: 2889 mission st. phone: 415-285-7117 type: mexican city?", "answer": "san francisco"}
+{"question": "name: mel's drive-in addr: 3355 geary st. phone: 415-387-2244 type: hamburgers city?", "answer": "san francisco"}
+{"question": "name: mo's burgers addr: 1322 grant st. phone: 415-788-3779 type: hamburgers city?", "answer": "san francisco"}
+{"question": "name: phnom penh cambodian restaurant addr: 631 larkin st. phone: 415-775-5979 type: cambodian city?", "answer": "San Francisco"}
+{"question": "name: roosevelt tamale parlor addr: 2817 24th st. phone: 415-550-9213 type: mexican city?", "answer": "San Francisco"}
+{"question": "name: sally's cafe & bakery addr: 300 de haro st. phone: 415-626-6006 type: american city?", "answer": "San Francisco"}
+{"question": "name: slanted door addr: 584 valencia st. phone: 415-861-8032 type: vietnamese city?", "answer": "san francisco"}
+{"question": "name: tu lan addr: 8 sixth st. phone: 415-626-0927 type: vietnamese city?", "answer": "san francisco"}
+{"question": "name: vicolo pizzeria addr: 201 ivy st. phone: 415-863-2382 type: pizza city?", "answer": "san francisco"}
+{"question": "name: wa-ha-ka oaxaca mexican grill addr: 2141 polk st. phone: 415-775-1055 type: mexican city?", "answer": "san francisco"}
