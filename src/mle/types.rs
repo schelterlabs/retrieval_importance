@@ -15,7 +15,7 @@ impl Grouping {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Retrieval {
     pub(crate) retrieved: Vec<usize>,
     pub(crate) utility_contributions: Vec<f64>,

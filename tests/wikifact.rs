@@ -242,7 +242,13 @@ fn parallelism() {
 }
 
 
-fn wikifact_grouped(questions_file: &str, group_file: &str, n_jobs: usize) -> Vec<f64> {
+fn wikifact_grouped(
+    questions_file: &str,
+    group_file: &str,
+    n_jobs: usize,
+    learning_rate: f64,
+    num_steps: usize,
+) -> Vec<f64> {
     eprintln!("Reading {questions_file}");
     let (all_retrieved, website_indexer) = read_qa_json(questions_file).unwrap();
 
@@ -264,8 +270,8 @@ fn wikifact_grouped(questions_file: &str, group_file: &str, n_jobs: usize) -> Ve
         corpus_size,
         Some(&grouping),
         K,
-        LEARNING_RATE,
-        NUM_STEPS,
+        learning_rate,
+        num_steps,
         n_jobs
     );
     let duration = (Instant::now() - start_time).as_millis();
@@ -307,7 +313,23 @@ fn wikifact_grouped_author() {
     wikifact_grouped(
         "test_data/wikifact/author.jsonl",
         "test_data/wikifact/author_websites_by_domain.jsonl",
-        1);
+        1,
+        LEARNING_RATE,
+        NUM_STEPS);
+}
+
+#[test]
+fn wikifact_grouped_author_no_nan() {
+    let v = wikifact_grouped(
+        "test_data/wikifact/author.jsonl",
+        "test_data/wikifact/author_websites_by_domain.jsonl",
+        num_cpus::get(),
+        0.9,
+        1000);
+
+    for v_i in &v {
+        assert!(!v_i.is_nan());
+    }
 }
 
 #[test]
@@ -315,7 +337,9 @@ fn wikifact_grouped_place_of_birth() {
     wikifact_grouped(
         "test_data/wikifact/place_of_birth.jsonl",
         "test_data/wikifact/place_of_birth_websites_by_domain.jsonl",
-        1);
+        1,
+        LEARNING_RATE,
+        NUM_STEPS);
 }
 
 #[test]
@@ -323,7 +347,9 @@ fn wikifact_grouped_currency() {
     wikifact_grouped(
         "test_data/wikifact/currency.jsonl",
         "test_data/wikifact/currency_websites_by_domain.jsonl",
-        1);
+        1,
+        LEARNING_RATE,
+        NUM_STEPS);
 }
 
 #[test]
@@ -331,11 +357,16 @@ fn parallelism_grouped() {
     let v_single_threaded = wikifact_grouped(
         "test_data/wikifact/author.jsonl",
         "test_data/wikifact/author_websites_by_domain.jsonl",
-        1);
+        1,
+        LEARNING_RATE,
+        NUM_STEPS);
+
     let v_parallel = wikifact_grouped(
         "test_data/wikifact/author.jsonl",
         "test_data/wikifact/author_websites_by_domain.jsonl",
-        num_cpus::get());
+        num_cpus::get(),
+        LEARNING_RATE,
+        NUM_STEPS);
 
     let norm_of_difference = v_single_threaded
         .iter().zip(v_parallel)

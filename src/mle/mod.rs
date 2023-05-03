@@ -23,7 +23,7 @@ pub fn mle_importance(
     let max_distinct_utility_contributions = max_distinct_utility_contributions(&retrievals);
 
     #[allow(non_snake_case)]
-        let N = retrievals.len();
+    let N = retrievals.len();
 
     for _ in 0..num_steps {
         let g = if n_jobs > 1 {
@@ -55,9 +55,12 @@ pub fn mle_importance(
 
         for i in 0..v.len() {
             v[i] += learning_rate * g[i];
+
             // Clipping
             if v[i] > 1.0 {
                 v[i] = 1.0;
+            } else if v[i] < 0.0 {
+                v[i] = 0.0;
             }
         }
 

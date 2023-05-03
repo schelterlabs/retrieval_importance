@@ -1,0 +1,86 @@
+name: chez michel addr: 804
+  name: darbar  phone
+  212-621-9200 
+  name: c3 addr: 103 wa
+ city: los angeles  address: 9
+  212/581-8888  
+  name: hong kong villa
+  212/246-9171  
+  212/486-9592  
+name: san francisco  name: san
+  212/247-2993  
+  name: morton's of chicago
+  212  212  212 
+  A: new york city  
+  name: langer's  phone
+   Answer: new york  
+  212-758-1479  
+  name: marnee thai  
+  212-595-7000  
+  name: mi cocina  phone
+  212-929-9000 
+name: chez melange addr: 1716
+  name: camille  age:
+  212-555-1212  
+  212/339-6719  
+  name: sea grill addr: 19 w
+  type: southwestern city?  type
+  212/956-3976  
+  212-929-9000 
+  212/533-2233  
+  name: captain's table  phone
+  212/496-1588  
+  name: nuevo laredo
+  212/564-7272 
+  212-929-9000 
+  name: coyote cafe  phone
+  name: kalo's coffee house 
+  212-929-9000 
+  name: le montrachet bist
+  212  212  212 
+  212-533-5011  
+ city: san francisco  address: 23
+  212/481-7372  
+  212/473-0108 212
+  212/702-5014  
+  212  212  212 
+  212 N.W.2d 8
+  212/243-9579  
+  name: kyo-ya  
+  212/956-7100 212
+  212/254-8776  
+  212  212  212 
+  212-929-9000 
+  212-242-9502  
+  212-929-9000 
+  type: tex-mex city?
+ city: san francisco  address: 6
+  212/906-9173 
+ : los angeles  Address: 224 s
+  212/758-5757  
+  name: coco pazzo addr
+  212-929-9292 
+  212/925-3700  
+  212/752-3054  
+  212-929-9000 
+  212/758-1479  
+  212  212  212 
+name: helmand addr: 430 broadway phone
+  212  212  212 
+  name: carey's addr: 10
+  name: mon kee seafood restaurant 
+  212/595-8555  
+  name: vivande porta via
+  212  212  212 
+  Is this product review positive? Title
+  212-929-9001 
+  212-349-3132  
+  212/627-7172  
+  212-929-9000 
+  name: cafe michelle  phone
+  212-924-9200 
+ city: new york  address: 20
+  212-929-9000 
+  212-929-9000 
+  212/333-7788  
+  name: dawat addr: 210
