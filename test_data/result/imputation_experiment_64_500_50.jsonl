@@ -1,2 +1,0 @@
-{"dataset": "buy", "target": "manufacturer", "llm": "gptjt6b", "test_accuracy": 0.7889423076923073, "test_accuracy_thresholded": 0.8125480769230771, "threshold": 6.75, "test_loo_accuracy": 0.8082211538461538, "threshold_loo": 3.015625}
-{"dataset": "restaurant", "target": "city", "llm": "gptjt6b", "test_accuracy": 0.7463107638888888, "test_accuracy_thresholded": 0.7608145254629632, "threshold": 5.78125, "test_loo_accuracy": 0.7562210648148149, "threshold_loo": 1.90625}
