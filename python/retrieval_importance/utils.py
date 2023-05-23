@@ -1,4 +1,6 @@
 from pathlib import Path
+import numpy as np
+import json
 
 def encode_retrievals(retrievals, retrieved_key, prediction_key, utility):
 
@@ -49,11 +51,9 @@ def encode_groups(mapping, group):
     return grouping, group_mapping
 
 
-def v_grouped(v, grouping, group_mapping):
+def grouped_weights(weights, grouping, group_mapping):
 
-    v_per_group = {}
-
-    num_groups = len(group_mapping)
+    w_grouped = {}
 
     retrieved_index_per_group = {}
 
@@ -62,33 +62,51 @@ def v_grouped(v, grouping, group_mapping):
         # TODO add break
 
     for group, group_index in group_mapping.items():
-        v_per_group[group] = v[retrieved_index_per_group[group_index]]
+        w_grouped[group] = weights[retrieved_index_per_group[group_index]]
 
-    return v_per_group
+    return w_grouped
 
 
-def most_important(v, mapping, how_many):
-    importances = {name:v[index] for name, index in mapping.items()}
-    sorted_importances = sorted(importances.items(), key=lambda x:-x[1])
+def most_important(weights, mapping, how_many):
+    importances = {name: weights[index] for name, index in mapping.items()}
+    sorted_importances = sorted(importances.items(), key=lambda x: -x[1])
     return sorted_importances[:how_many]
 
 
-def least_important(v, mapping, how_many):
-    importances = {name:v[index] for name, index in mapping.items()}
-    sorted_importances = sorted(importances.items(), key=lambda x:x[1])
+def least_important(weights, mapping, how_many):
+    importances = {name: weights[index] for name, index in mapping.items()}
+    sorted_importances = sorted(importances.items(), key=lambda x: x[1])
 
     return sorted_importances[:how_many]
 
 
-def most_important_groups(v_per_group, how_many):
-    sorted_importances = sorted(v_per_group.items(), key=lambda x:-x[1])
+def most_important_groups(weights_per_group, how_many):
+    sorted_importances = sorted(weights_per_group.items(), key=lambda x: -x[1])
     return sorted_importances[:how_many]
 
 
-def least_important_groups(v_per_group, how_many):
-    sorted_importances = sorted(v_per_group.items(), key=lambda x:x[1])
+def least_important_groups(weights_per_group, how_many):
+    sorted_importances = sorted(weights_per_group.items(), key=lambda x: x[1])
     return sorted_importances[:how_many]
+
 
 def get_project_root() -> Path:
     """Returns the project root folder."""
     return Path(__file__).parent.parent.parent
+
+
+def split(data, fraction):
+    # TODO should we make a deep copy of the data?
+    np.random.shuffle(data)
+    split_index = int(len(data) * fraction)
+    return data[:split_index], data[split_index:]
+
+
+def retrievals_from_json(path):
+    retrievals = []
+
+    with open(path) as file:
+        for line in file:
+            retrievals.append(json.loads(line))
+
+    return retrievals
