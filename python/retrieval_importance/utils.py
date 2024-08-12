@@ -119,7 +119,10 @@ def cal_acc(test_set, retrievals, group, mapping, K = 0):
                 break
         if len(retain_list) == 0:
             continue
-        max_ans = mode(retain_list)
+        try:
+            max_ans = mode(retain_list)
+        except:
+            max_ans = "Wrong Answer"
         if max_ans in now_correct:
             acc += 1
     return acc/len(test_set)
@@ -292,13 +295,14 @@ def generate_retrival(retrivals, source_list, random_seed, K = 10, max_len = 200
                 if(len(now["retrieved_answers"])>j):
                     now_i = random.random()
                     if now_i <i[0]:
-                        list.append((j * 100 + sid, now["retrieved_answers"][j], str(sid)))
+                        list.append((j * 1000 + sid * 2, now["retrieved_answers"][j], str(sid)))
                     else:
-                        list.append((j * 100 + sid, now["noise_answers"][j], str(sid)))
+                        list.append((j * 1000 + sid * 2 + 1, now["noise_answers"][j], str(sid)))
         sort_list = sorted(list, key=lambda x: x[0])
 
         dataset["retrieved_answers"] = [i[1] for i in sort_list]
         dataset["retrieved_websites"] = [i[2] for i in sort_list]
+        dataset["origin_source"] = [i[0] for i in sort_list]
         source.append(dataset)
     return source
 
@@ -324,6 +328,51 @@ def load_retrievals(relation_name, scenrio, random_seed = 0):
         retrievals = generate_retrival(retrievals, source_list, random_seed)
         return retrievals
 
+
+def load_retrievals_new(relation_name, scenrio, model, random_seed = 0):
+    print("loading data", relation_name, scenrio, model)
+    if scenrio == "raw":
+        retrievals = []
+        with open(f'{str(get_project_root())}/test_data/{model}/{relation_name}.jsonl') as f:
+            for line in f:
+                retrievals.append(json.loads(line))
+        return retrievals
+    if scenrio  == "fake":
+        retrievals = []
+        with open(f'{str(get_project_root())}/test_data/{model}/{relation_name}_fake.jsonl') as f:
+            for line in f:
+                retrievals.append(json.loads(line))
+        return retrievals
+    if scenrio == "noise":
+        retrievals = []
+        with open(f'{str(get_project_root())}/test_data/{model}/{relation_name}.jsonl') as f:
+            for line in f:
+                retrievals.append(json.loads(line))
+        source_list = generate_source_list(random_seed)
+        retrievals = generate_retrival(retrievals, source_list, random_seed)
+        return retrievals
+
+def load_retrievals_new_model(relation_name, scenrio, random_seed = 0):
+    if scenrio == "raw":
+        retrievals = []
+        with open(f'{str(get_project_root())}/test_data/llama3/{relation_name}.jsonl') as f:
+            for line in f:
+                retrievals.append(json.loads(line))
+        return retrievals
+    if scenrio  == "fake":
+        retrievals = []
+        with open(f'{str(get_project_root())}/test_data/llama3/{relation_name}.jsonl') as f:
+            for line in f:
+                retrievals.append(json.loads(line))
+        return retrievals
+    if scenrio == "noise":
+        retrievals = []
+        with open(f'{str(get_project_root())}/test_data/llama3/{relation_name}.jsonl') as f:
+            for line in f:
+                retrievals.append(json.loads(line))
+        source_list = generate_source_list(random_seed)
+        retrievals = generate_retrival(retrievals, source_list, random_seed)
+        return retrievals
 
 def load_openai_retrievals(relation_name, scenrio, random_seed = 0):
     if scenrio == "raw":
